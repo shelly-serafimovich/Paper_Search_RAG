@@ -1,0 +1,2085 @@
+,expanded_query,title,abstract,expanded_score,feedback_adjusted_score,cosine_similarity,source_query,overlap_count
+What are the latest techniques for explainability in deep neural networks?,"What are the latest techniques for explainability in deep neural networks? - Interpretable machine learning
+- Transparency in AI
+- Model interpretability
+- Explainable artificial intelligence
+- Deep learning explainability techniques","Explaining Deep Neural Networks and Beyond: A Review of Methods and
+  Applications","  With the broader and highly successful usage of machine learning in industry
+and the sciences, there has been a growing demand for Explainable AI.
+Interpretability and explanation methods for gaining a better understanding
+about the problem solving abilities and strategies of nonlinear Machine
+Learning, in particular, deep neural networks, are therefore receiving
+increased attention. In this work we aim to (1) provide a timely overview of
+this active emerging field, with a focus on 'post-hoc' explanations, and
+explain its theoretical foundations, (2) put interpretability algorithms to a
+test both from a theory and comparative evaluation perspective using extensive
+simulations, (3) outline best practice aspects i.e. how to best include
+interpretation methods into the standard usage of machine learning and (4)
+demonstrate successful usage of explainable AI in a representative selection of
+application scenarios. Finally, we discuss challenges and possible future
+directions of this exciting foundational field of machine learning.
+",9.333333333,8.666666667,0.72521746,overlap,
+What are the latest techniques for explainability in deep neural networks?,"What are the latest techniques for explainability in deep neural networks? - Interpretability
+- Model transparency
+- Explanations in AI
+- Neural network interpretability
+- Transparency techniques in deep learning",Gradient based Feature Attribution in Explainable AI: A Technical Review,"  The surge in black-box AI models has prompted the need to explain the
+internal mechanism and justify their reliability, especially in high-stakes
+applications, such as healthcare and autonomous driving. Due to the lack of a
+rigorous definition of explainable AI (XAI), a plethora of research related to
+explainability, interpretability, and transparency has been developed to
+explain and analyze the model from various perspectives. Consequently, with an
+exhaustive list of papers, it becomes challenging to have a comprehensive
+overview of XAI research from all aspects. Considering the popularity of neural
+networks in AI research, we narrow our focus to a specific area of XAI
+research: gradient based explanations, which can be directly adopted for neural
+network models. In this review, we systematically explore gradient based
+explanation methods to date and introduce a novel taxonomy to categorize them
+into four distinct classes. Then, we present the essence of technique details
+in chronological order and underscore the evolution of algorithms. Next, we
+introduce both human and quantitative evaluations to measure algorithm
+performance. More importantly, we demonstrate the general challenges in XAI and
+specific challenges in gradient based explanations. We hope that this survey
+can help researchers understand state-of-the-art progress and their
+corresponding disadvantages, which could spark their interest in addressing
+these issues in future work.
+",9,8.666666667,0.7168599,overlap,
+What are the latest techniques for explainability in deep neural networks?,"What are the latest techniques for explainability in deep neural networks? - Interpretability
+- Model transparency
+- Explainable AI
+- Feature importance
+- Local explanations
+- Global explanations
+- Trustworthiness in AI
+- Black-box models
+- Post-hoc explanations","Robust Explainability: A Tutorial on Gradient-Based Attribution Methods
+  for Deep Neural Networks","  With the rise of deep neural networks, the challenge of explaining the
+predictions of these networks has become increasingly recognized. While many
+methods for explaining the decisions of deep neural networks exist, there is
+currently no consensus on how to evaluate them. On the other hand, robustness
+is a popular topic for deep learning research; however, it is hardly talked
+about in explainability until very recently. In this tutorial paper, we start
+by presenting gradient-based interpretability methods. These techniques use
+gradient signals to assign the burden of the decision on the input features.
+Later, we discuss how gradient-based methods can be evaluated for their
+robustness and the role that adversarial robustness plays in having meaningful
+explanations. We also discuss the limitations of gradient-based methods.
+Finally, we present the best practices and attributes that should be examined
+before choosing an explainability method. We conclude with the future
+directions for research in the area at the convergence of robustness and
+explainability.
+",8.666666667,8.666666667,0.7853645,overlap,
+What are the latest techniques for explainability in deep neural networks?,"What are the latest techniques for explainability in deep neural networks? - Interpretability
+- Model transparency
+- Attention mechanism
+- Feature importance
+- Local explanations
+- Global explanations","Explaining Explanations: An Overview of Interpretability of Machine
+  Learning","  There has recently been a surge of work in explanatory artificial
+intelligence (XAI). This research area tackles the important problem that
+complex machines and algorithms often cannot provide insights into their
+behavior and thought processes. XAI allows users and parts of the internal
+system to be more transparent, providing explanations of their decisions in
+some level of detail. These explanations are important to ensure algorithmic
+fairness, identify potential bias/problems in the training data, and to ensure
+that the algorithms perform as expected. However, explanations produced by
+these systems is neither standardized nor systematically assessed. In an effort
+to create best practices and identify open challenges, we provide our
+definition of explainability and show how it can be used to classify existing
+literature. We discuss why current approaches to explanatory methods especially
+for deep neural networks are insufficient. Finally, based on our survey, we
+conclude with suggested future research directions for explanatory artificial
+intelligence.
+",8,8,0.6290237,overlap,
+What are the latest techniques for explainability in deep neural networks?,"What are the latest techniques for explainability in deep neural networks? - Interpretability
+- Model transparency
+- Explainable AI
+- Neural network explainability
+- Feature attribution
+- Deep learning interpretability",Explaining Deep Neural Networks,"  Deep neural networks are becoming more and more popular due to their
+revolutionary success in diverse areas, such as computer vision, natural
+language processing, and speech recognition. However, the decision-making
+processes of these models are generally not interpretable to users. In various
+domains, such as healthcare, finance, or law, it is critical to know the
+reasons behind a decision made by an artificial intelligence system. Therefore,
+several directions for explaining neural models have recently been explored. In
+this thesis, I investigate two major directions for explaining deep neural
+networks. The first direction consists of feature-based post-hoc explanatory
+methods, that is, methods that aim to explain an already trained and fixed
+model (post-hoc), and that provide explanations in terms of input features,
+such as tokens for text and superpixels for images (feature-based). The second
+direction consists of self-explanatory neural models that generate natural
+language explanations, that is, models that have a built-in module that
+generates explanations for the predictions of the model.
+",7.333333333,,0.7394074,expanded,
+What are the latest techniques for explainability in deep neural networks?,"What are the latest techniques for explainability in deep neural networks? - Interpretable models
+- Explainable AI
+- Feature importance
+- Model explainability techniques
+- XAI (Explainable Artificial Intelligence)
+- Gradient-based methods
+- Rule-based approaches
+- Shapley values","Do Explanations Reflect Decisions? A Machine-centric Strategy to
+  Quantify the Performance of Explainability Algorithms","  There has been a significant surge of interest recently around the concept of
+explainable artificial intelligence (XAI), where the goal is to produce an
+interpretation for a decision made by a machine learning algorithm. Of
+particular interest is the interpretation of how deep neural networks make
+decisions, given the complexity and `black box' nature of such networks. Given
+the infancy of the field, there has been very limited exploration into the
+assessment of the performance of explainability methods, with most evaluations
+centered around subjective visual interpretation of the produced
+interpretations. In this study, we explore a more machine-centric strategy for
+quantifying the performance of explainability methods on deep neural networks
+via the notion of decision-making impact analysis. We introduce two
+quantitative performance metrics: i) Impact Score, which assesses the
+percentage of critical factors with either strong confidence reduction impact
+or decision changing impact, and ii) Impact Coverage, which assesses the
+percentage coverage of adversarially impacted factors in the input. A
+comprehensive analysis using this approach was conducted on several
+state-of-the-art explainability methods (LIME, SHAP, Expected Gradients,
+GSInquire) on a ResNet-50 deep convolutional neural network using a subset of
+ImageNet for the task of image classification. Experimental results show that
+the critical regions identified by LIME within the tested images had the lowest
+impact on the decision-making process of the network (~38%), with progressive
+increase in decision-making impact for SHAP (~44%), Expected Gradients (~51%),
+and GSInquire (~76%). While by no means perfect, the hope is that the proposed
+machine-centric strategy helps push the conversation forward towards better
+metrics for evaluating explainability methods and improve trust in deep neural
+networks.
+",,6.333333333,0.70346236,feedback_adjusted,
+How is transfer learning being applied in medical imaging analysis?,"How is transfer learning being applied in medical imaging analysis? - Deep learning
+- Convolutional neural networks
+- Diagnostic accuracy
+- Radiology
+- Feature extraction","Deep transfer learning for detecting Covid-19, Pneumonia and
+  Tuberculosis using CXR images -- A Review","  Chest X-rays remains to be the most common imaging modality used to diagnose
+lung diseases. However, they necessitate the interpretation of experts
+(radiologists and pulmonologists), who are few. This review paper investigates
+the use of deep transfer learning techniques to detect COVID-19, pneumonia, and
+tuberculosis in chest X-ray (CXR) images. It provides an overview of current
+state-of-the-art CXR image classification techniques and discusses the
+challenges and opportunities in applying transfer learning to this domain. The
+paper provides a thorough examination of recent research studies that used deep
+transfer learning algorithms for COVID-19, pneumonia, and tuberculosis
+detection, highlighting the advantages and disadvantages of these approaches.
+Finally, the review paper discusses future research directions in the field of
+deep transfer learning for CXR image classification, as well as the potential
+for these techniques to aid in the diagnosis and treatment of lung diseases.
+",9.666666667,9.333333333,0.6271579,overlap,
+How is transfer learning being applied in medical imaging analysis?,"How is transfer learning being applied in medical imaging analysis? - Deep learning
+- Image classification
+- Neural networks
+- Radiology
+- Disease diagnosis
+- Image segmentation","What Makes Transfer Learning Work For Medical Images: Feature Reuse &
+  Other Factors","  Transfer learning is a standard technique to transfer knowledge from one
+domain to another. For applications in medical imaging, transfer from ImageNet
+has become the de-facto approach, despite differences in the tasks and image
+characteristics between the domains. However, it is unclear what factors
+determine whether - and to what extent - transfer learning to the medical
+domain is useful. The long-standing assumption that features from the source
+domain get reused has recently been called into question. Through a series of
+experiments on several medical image benchmark datasets, we explore the
+relationship between transfer learning, data size, the capacity and inductive
+bias of the model, as well as the distance between the source and target
+domain. Our findings suggest that transfer learning is beneficial in most
+cases, and we characterize the important role feature reuse plays in its
+success.
+",9,,0.7203219,expanded,
+How is transfer learning being applied in medical imaging analysis?,"How is transfer learning being applied in medical imaging analysis? - deep learning
+- convolutional neural networks
+- classification
+- diagnostic accuracy
+- feature extraction
+- pre-trained models
+- image segmentation",Supervised Transfer Learning at Scale for Medical Imaging,"  Transfer learning is a standard technique to improve performance on tasks
+with limited data. However, for medical imaging, the value of transfer learning
+is less clear. This is likely due to the large domain mismatch between the
+usual natural-image pre-training (e.g. ImageNet) and medical images. However,
+recent advances in transfer learning have shown substantial improvements from
+scale. We investigate whether modern methods can change the fortune of transfer
+learning for medical imaging. For this, we study the class of large-scale
+pre-trained networks presented by Kolesnikov et al. on three diverse imaging
+tasks: chest radiography, mammography, and dermatology. We study both transfer
+performance and critical properties for the deployment in the medical domain,
+including: out-of-distribution generalization, data-efficiency, sub-group
+fairness, and uncertainty estimation. Interestingly, we find that for some of
+these properties transfer from natural to medical images is indeed extremely
+effective, but only when performed at sufficient scale.
+",9,,0.68376684,expanded,
+How is transfer learning being applied in medical imaging analysis?,"How is transfer learning being applied in medical imaging analysis? - Deep learning
+- Convolutional neural networks
+- Radiology
+- Image classification
+- Image segmentation
+- Feature extraction
+- Fine-tuning
+- Medical diagnosis
+- Computer-aided diagnosis
+- Healthcare applications",Modality-bridge Transfer Learning for Medical Image Classification,"  This paper presents a new approach of transfer learning-based medical image
+classification to mitigate insufficient labeled data problem in medical domain.
+Instead of direct transfer learning from source to small number of labeled
+target data, we propose a modality-bridge transfer learning which employs the
+bridge database in the same medical imaging acquisition modality as target
+database. By learning the projection function from source to bridge and from
+bridge to target, the domain difference between source (e.g., natural images)
+and target (e.g., X-ray images) can be mitigated. Experimental results show
+that the proposed method can achieve a high classification performance even for
+a small number of labeled target medical images, compared to various transfer
+learning approaches.
+",9,,0.69405055,expanded,
+How is transfer learning being applied in medical imaging analysis?,"How is transfer learning being applied in medical imaging analysis? - Deep learning
+- Convolutional neural networks
+- Radiology
+- Disease diagnosis
+- Feature extraction
+- Image classification
+- Model fine-tuning","Towards Automated Melanoma Screening: Exploring Transfer Learning
+  Schemes","  Deep learning is the current bet for image classification. Its greed for huge
+amounts of annotated data limits its usage in medical imaging context. In this
+scenario transfer learning appears as a prominent solution. In this report we
+aim to clarify how transfer learning schemes may influence classification
+results. We are particularly focused in the automated melanoma screening
+problem, a case of medical imaging in which transfer learning is still not
+widely used. We explored transfer with and without fine-tuning, sequential
+transfers and usage of pre-trained models in general and specific datasets.
+Although some issues remain open, our findings may drive future researches.
+",9,,0.6264371,expanded,
+How is transfer learning being applied in medical imaging analysis?,"How is transfer learning being applied in medical imaging analysis? - Radiology
+- Deep learning
+- Convolutional Neural Networks
+- Image classification
+- Disease diagnosis","Advancing Diagnostic Precision: Leveraging Machine Learning Techniques
+  for Accurate Detection of Covid-19, Pneumonia, and Tuberculosis in Chest
+  X-Ray Images","  Lung diseases such as COVID-19, tuberculosis (TB), and pneumonia continue to
+be serious global health concerns that affect millions of people worldwide. In
+medical practice, chest X-ray examinations have emerged as the norm for
+diagnosing diseases, particularly chest infections such as COVID-19. Paramedics
+and scientists are working intensively to create a reliable and precise
+approach for early-stage COVID-19 diagnosis in order to save lives. But with a
+variety of symptoms, medical diagnosis of these disorders poses special
+difficulties. It is essential to address their identification and timely
+diagnosis in order to successfully treat and prevent these illnesses. In this
+research, a multiclass classification approach using state-of-the-art methods
+for deep learning and image processing is proposed. This method takes into
+account the robustness and efficiency of the system in order to increase
+diagnostic precision of chest diseases. A comparison between a brand-new
+convolution neural network (CNN) and several transfer learning pre-trained
+models including VGG19, ResNet, DenseNet, EfficientNet, and InceptionNet is
+recommended. Publicly available and widely used research datasets like Shenzen,
+Montogomery, the multiclass Kaggle dataset and the NIH dataset were used to
+rigorously test the model. Recall, precision, F1-score, and Area Under Curve
+(AUC) score are used to evaluate and compare the performance of the proposed
+model. An AUC value of 0.95 for COVID-19, 0.99 for TB, and 0.98 for pneumonia
+is obtained using the proposed network. Recall and precision ratings of 0.95,
+0.98, and 0.97, respectively, likewise met high standards.
+",,7,0.42008674,feedback_adjusted,
+How is transfer learning being applied in medical imaging analysis?,"How is transfer learning being applied in medical imaging analysis? - Deep learning
+- Convolutional neural networks
+- Radiology
+- Image segmentation
+- Disease diagnosis
+- Feature extraction
+- Model fine-tuning","Study on Transfer Learning Capabilities for Pneumonia Classification in
+  Chest-X-Rays Image","  Over the last year, the severe acute respiratory syndrome coronavirus-2
+(SARS-CoV-2) and its variants have highlighted the importance of screening
+tools with high diagnostic accuracy for new illnesses such as COVID-19. To that
+regard, deep learning approaches have proven as effective solutions for
+pneumonia classification, especially when considering chest-x-rays images.
+However, this lung infection can also be caused by other viral, bacterial or
+fungi pathogens. Consequently, efforts are being poured toward distinguishing
+the infection source to help clinicians to diagnose the correct disease origin.
+Following this tendency, this study further explores the effectiveness of
+established neural network architectures on the pneumonia classification task
+through the transfer learning paradigm. To present a comprehensive comparison,
+12 well-known ImageNet pre-trained models were fine-tuned and used to
+discriminate among chest-x-rays of healthy people, and those showing pneumonia
+symptoms derived from either a viral (i.e., generic or SARS-CoV-2) or bacterial
+source. Furthermore, since a common public collection distinguishing between
+such categories is currently not available, two distinct datasets of
+chest-x-rays images, describing the aforementioned sources, were combined and
+employed to evaluate the various architectures. The experiments were performed
+using a total of 6330 images split between train, validation and test sets. For
+all models, common classification metrics were computed (e.g., precision,
+f1-score) and most architectures obtained significant performances, reaching,
+among the others, up to 84.46% average f1-score when discriminating the 4
+identified classes. Moreover, confusion matrices and activation maps computed
+via the Grad-CAM algorithm were also reported to present an informed discussion
+on the networks classifications.
+",,9,0.53770036,feedback_adjusted,
+How is transfer learning being applied in medical imaging analysis?,"How is transfer learning being applied in medical imaging analysis? - Deep learning
+- Computer vision
+- Radiology
+- Image classification
+- Feature extraction
+- Biomedical applications
+- Convolutional neural networks
+- Data augmentation
+- Pretraining
+- Fine-tuning","Automatic Detection of COVID-19 and Pneumonia from Chest X-Ray using
+  Deep Learning","  In this study, a dataset of X-ray images from patients with common viral
+pneumonia, bacterial pneumonia, confirmed Covid-19 disease was utilized for the
+automatic detection of the Coronavirus disease. The point of the investigation
+is to assess the exhibition of cutting edge convolutional neural system
+structures proposed over the ongoing years for clinical picture order. In
+particular, the system called Transfer Learning was received. With transfer
+learning, the location of different variations from the norm in little clinical
+picture datasets is a reachable objective, regularly yielding amazing outcomes.
+The datasets used in this trial. Firstly, a collection of 24000 X-ray images
+includes 6000 images for confirmed Covid-19 disease,6000 confirmed common
+bacterial pneumonia and 6000 images of normal conditions. The information was
+gathered and expanded from the accessible X-Ray pictures on open clinical
+stores. The outcomes recommend that Deep Learning with X-Ray imaging may
+separate noteworthy biological markers identified with the Covid-19 sickness,
+while the best precision, affectability, and particularity acquired is 97.83%,
+96.81%, and 98.56% individually.
+",,8.333333333,0.5734759,feedback_adjusted,
+How is transfer learning being applied in medical imaging analysis?,"How is transfer learning being applied in medical imaging analysis? - Radiology
+- Deep learning
+- Image classification
+- Healthcare
+- Convolutional neural networks
+- Feature extraction","DenResCov-19: A deep transfer learning network for robust automatic
+  classification of COVID-19, pneumonia, and tuberculosis from X-rays","  The global pandemic of COVID-19 is continuing to have a significant effect on
+the well-being of global population, increasing the demand for rapid testing,
+diagnosis, and treatment. Along with COVID-19, other etiologies of pneumonia
+and tuberculosis constitute additional challenges to the medical system. In
+this regard, the objective of this work is to develop a new deep transfer
+learning pipeline to diagnose patients with COVID-19, pneumonia, and
+tuberculosis, based on chest x-ray images. We observed in some instances
+DenseNet and Resnet have orthogonal performances. In our proposed model, we
+have created an extra layer with convolutional neural network blocks to combine
+these two models to establish superior performance over either model. The same
+strategy can be useful in other applications where two competing networks with
+complementary performance are observed. We have tested the performance of our
+proposed network on two-class (pneumonia vs healthy), three-class (including
+COVID-19), and four-class (including tuberculosis) classification problems. The
+proposed network has been able to successfully classify these lung diseases in
+all four datasets and has provided significant improvement over the benchmark
+networks of DenseNet, ResNet, and Inception-V3. These novel findings can
+deliver a state-of-the-art pre-screening fast-track decision network to detect
+COVID-19 and other lung pathologies.
+",,9.333333333,0.4175442,feedback_adjusted,
+What are the advancements in handling class imbalance in supervised learning?,"What are the advancements in handling class imbalance in supervised learning? - Sampling techniques
+- Cost-sensitive learning
+- Ensemble methods
+- Synthetic data generation
+- Evaluation metrics for imbalanced datasets","Review of Methods for Handling Class-Imbalanced in Classification
+  Problems","  Learning classifiers using skewed or imbalanced datasets can occasionally
+lead to classification issues; this is a serious issue. In some cases, one
+class contains the majority of examples while the other, which is frequently
+the more important class, is nevertheless represented by a smaller proportion
+of examples. Using this kind of data could make many carefully designed
+machine-learning systems ineffective. High training fidelity was a term used to
+describe biases vs. all other instances of the class. The best approach to all
+possible remedies to this issue is typically to gain from the minority class.
+The article examines the most widely used methods for addressing the problem of
+learning with a class imbalance, including data-level, algorithm-level, hybrid,
+cost-sensitive learning, and deep learning, etc. including their advantages and
+limitations. The efficiency and performance of the classifier are assessed
+using a myriad of evaluation metrics.
+",9.333333333,9.333333333,0.70557666,overlap,
+What are the advancements in handling class imbalance in supervised learning?,"What are the advancements in handling class imbalance in supervised learning? - Oversampling
+- Undersampling
+- SMOTE
+- Cost-sensitive learning
+- Ensemble methods
+- Synthetic data generation","An Empirical Analysis of the Efficacy of Different Sampling Techniques
+  for Imbalanced Classification","  Learning from imbalanced data is a challenging task. Standard classification
+algorithms tend to perform poorly when trained on imbalanced data. Some special
+strategies need to be adopted, either by modifying the data distribution or by
+redesigning the underlying classification algorithm to achieve desirable
+performance. The prevalence of imbalance in real-world datasets has led to the
+creation of a multitude of strategies for the class imbalance issue. However,
+not all the strategies are useful or provide good performance in different
+imbalance scenarios. There are numerous approaches to dealing with imbalanced
+data, but the efficacy of such techniques or an experimental comparison among
+those techniques has not been conducted. In this study, we present a
+comprehensive analysis of 26 popular sampling techniques to understand their
+effectiveness in dealing with imbalanced data. Rigorous experiments have been
+conducted on 50 datasets with different degrees of imbalance to thoroughly
+investigate the performance of these techniques. A detailed discussion of the
+advantages and limitations of the techniques, as well as how to overcome such
+limitations, has been presented. We identify some critical factors that affect
+the sampling strategies and provide recommendations on how to choose an
+appropriate sampling technique for a particular application.
+",9.333333333,9,0.679003,overlap,
+What are the advancements in handling class imbalance in supervised learning?,"What are the advancements in handling class imbalance in supervised learning? - Oversampling
+- Undersampling
+- Synthetic data generation
+- Cost-sensitive learning
+- Ensemble methods
+- Anomaly detection
+- Feature engineering","A Survey of Methods for Managing the Classification and Solution of Data
+  Imbalance Problem","  The problem of class imbalance is extensive for focusing on numerous
+applications in the real world. In such a situation, nearly all of the examples
+are labeled as one class called majority class, while far fewer examples are
+labeled as the other class usually, the more important class is called
+minority. Over the last few years, several types of research have been carried
+out on the issue of class imbalance, including data sampling, cost-sensitive
+analysis, Genetic Programming based models, bagging, boosting, etc.
+Nevertheless, in this survey paper, we enlisted the 24 related studies in the
+years 2003, 2008, 2010, 2012 and 2014 to 2019, focusing on the architecture of
+single, hybrid, and ensemble method design to understand the current status of
+improving classification output in machine learning techniques to fix problems
+with class imbalances. This survey paper also includes a statistical analysis
+of the classification algorithms under various methods and several other
+experimental conditions, as well as datasets used in different research papers.
+",8.333333333,9,0.66323924,overlap,
+What are the advancements in handling class imbalance in supervised learning?,"What are the advancements in handling class imbalance in supervised learning? - Oversampling
+- Undersampling
+- Synthetic data generation
+- SMOTE
+- Class weights
+- Ensemble methods
+- Cost-sensitive learning",Rethinking Class Imbalance in Machine Learning,"  Imbalance learning is a subfield of machine learning that focuses on learning
+tasks in the presence of class imbalance. Nearly all existing studies refer to
+class imbalance as a proportion imbalance, where the proportion of training
+samples in each class is not balanced. The ignorance of the proportion
+imbalance will result in unfairness between/among classes and poor
+generalization capability. Previous literature has presented numerous methods
+for either theoretical/empirical analysis or new methods for imbalance
+learning. This study presents a new taxonomy of class imbalance in machine
+learning with a broader scope. Four other types of imbalance, namely, variance,
+distance, neighborhood, and quality imbalances between/among classes, which may
+exist in machine learning tasks, are summarized. Two different levels of
+imbalance including global and local are also presented. Theoretical analysis
+is used to illustrate the significant impact of the new imbalance types on
+learning fairness. Moreover, our taxonomy and theoretical conclusions are used
+to analyze the shortcomings of several classical methods. As an example, we
+propose a new logit perturbation-based imbalance learning loss when proportion,
+variance, and distance imbalances exist simultaneously. Several classical
+losses become the special case of our proposed method. Meta learning is
+utilized to infer the hyper-parameters related to the three types of imbalance.
+Experimental results on several benchmark corpora validate the effectiveness of
+the proposed method.
+",8.333333333,,0.7197063,expanded,
+What are the advancements in handling class imbalance in supervised learning?,"What are the advancements in handling class imbalance in supervised learning? - Oversampling
+- Undersampling
+- SMOTE
+- Class weighting
+- Ensemble techniques
+- Anomaly detection techniques",Influence-Balanced Loss for Imbalanced Visual Classification,"  In this paper, we propose a balancing training method to address problems in
+imbalanced data learning. To this end, we derive a new loss used in the
+balancing training phase that alleviates the influence of samples that cause an
+overfitted decision boundary. The proposed loss efficiently improves the
+performance of any type of imbalance learning methods. In experiments on
+multiple benchmark data sets, we demonstrate the validity of our method and
+reveal that the proposed loss outperforms the state-of-the-art cost-sensitive
+loss methods. Furthermore, since our loss is not restricted to a specific task,
+model, or training method, it can be easily used in combination with other
+recent re-sampling, meta-learning, and cost-sensitive learning methods for
+class-imbalance problems.
+",8.333333333,,0.70390683,expanded,
+What are the advancements in handling class imbalance in supervised learning?,"What are the advancements in handling class imbalance in supervised learning? - Oversampling
+- Undersampling
+- SMOTE
+- Class weights
+- Ensemble methods",Partial Resampling of Imbalanced Data,"  Imbalanced data is a frequently encountered problem in machine learning.
+Despite a vast amount of literature on sampling techniques for imbalanced data,
+there is a limited number of studies that address the issue of the optimal
+sampling ratio. In this paper, we attempt to fill the gap in the literature by
+conducting a large scale study of the effects of sampling ratio on
+classification accuracy. We consider 10 popular sampling methods and evaluate
+their performance over a range of ratios based on 20 datasets. The results of
+the numerical experiments suggest that the optimal sampling ratio is between
+0.7 and 0.8 albeit the exact ratio varies depending on the dataset.
+Furthermore, we find that while factors such the original imbalance ratio or
+the number of features do not play a discernible role in determining the
+optimal ratio, the number of samples in the dataset may have a tangible effect.
+",,7.333333333,0.64573896,feedback_adjusted,
+What are the advancements in handling class imbalance in supervised learning?,"What are the advancements in handling class imbalance in supervised learning? - sampling techniques
+- ensemble methods
+- synthetic data generation
+- cost-sensitive learning
+- anomaly detection",Stop Oversampling for Class Imbalance Learning: A Critical Review,"  For the last two decades, oversampling has been employed to overcome the
+challenge of learning from imbalanced datasets. Many approaches to solving this
+challenge have been offered in the literature. Oversampling, on the other hand,
+is a concern. That is, models trained on fictitious data may fail spectacularly
+when put to real-world problems. The fundamental difficulty with oversampling
+approaches is that, given a real-life population, the synthesized samples may
+not truly belong to the minority class. As a result, training a classifier on
+these samples while pretending they represent minority may result in incorrect
+predictions when the model is used in the real world. We analyzed a large
+number of oversampling methods in this paper and devised a new oversampling
+evaluation system based on hiding a number of majority examples and comparing
+them to those generated by the oversampling process. Based on our evaluation
+system, we ranked all these methods based on their incorrectly generated
+examples for comparison. Our experiments using more than 70 oversampling
+methods and three imbalanced real-world datasets reveal that all oversampling
+methods studied generate minority samples that are most likely to be majority.
+Given data and methods in hand, we argue that oversampling in its current forms
+and methodologies is unreliable for learning from class imbalanced data and
+should be avoided in real-world applications.
+",,6,0.60609907,feedback_adjusted,
+How can reinforcement learning improve autonomous vehicle navigation?,"How can reinforcement learning improve autonomous vehicle navigation? - Machine learning
+- Artificial intelligence
+- Deep learning
+- Sensor fusion
+- Real-time decision making
+- Control systems
+- Traffic scenarios
+- Environment mapping
+- Collision avoidance",Benchmarking Reinforcement Learning Techniques for Autonomous Navigation,"  Deep reinforcement learning (RL) has brought many successes for autonomous
+robot navigation. However, there still exists important limitations that
+prevent real-world use of RL-based navigation systems. For example, most
+learning approaches lack safety guarantees; and learned navigation systems may
+not generalize well to unseen environments. Despite a variety of recent
+learning techniques to tackle these challenges in general, a lack of an
+open-source benchmark and reproducible learning methods specifically for
+autonomous navigation makes it difficult for roboticists to choose what
+learning methods to use for their mobile robots and for learning researchers to
+identify current shortcomings of general learning methods for autonomous
+navigation. In this paper, we identify four major desiderata of applying deep
+RL approaches for autonomous navigation: (D1) reasoning under uncertainty, (D2)
+safety, (D3) learning from limited trial-and-error data, and (D4)
+generalization to diverse and novel environments. Then, we explore four major
+classes of learning techniques with the purpose of achieving one or more of the
+four desiderata: memory-based neural network architectures (D1), safe RL (D2),
+model-based RL (D2, D3), and domain randomization (D4). By deploying these
+learning techniques in a new open-source large-scale navigation benchmark and
+real-world environments, we perform a comprehensive study aimed at establishing
+to what extent can these techniques achieve these desiderata for RL-based
+navigation systems.
+",9,,0.70179206,expanded,
+How can reinforcement learning improve autonomous vehicle navigation?,"How can reinforcement learning improve autonomous vehicle navigation? - Machine learning
+- Deep learning
+- Control theory
+- Sensor fusion
+- Path planning
+- Real-time decision making
+- Object detection","Evaluation of Safety Constraints in Autonomous Navigation with Deep
+  Reinforcement Learning","  While reinforcement learning algorithms have had great success in the field
+of autonomous navigation, they cannot be straightforwardly applied to the real
+autonomous systems without considering the safety constraints. The later are
+crucial to avoid unsafe behaviors of the autonomous vehicle on the road. To
+highlight the importance of these constraints, in this study, we compare two
+learnable navigation policies: safe and unsafe. The safe policy takes the
+constraints into account, while the other does not. We show that the safe
+policy is able to generate trajectories with more clearance (distance to the
+obstacles) and makes less collisions while training without sacrificing the
+overall performance.
+",9,9.333333333,0.733965,overlap,
+How can reinforcement learning improve autonomous vehicle navigation?,"How can reinforcement learning improve autonomous vehicle navigation? - Deep learning
+- Machine learning algorithms
+- Sensor fusion
+- Motion planning
+- Simulation environment
+- Transfer learning
+- Control policies
+- Multi-agent systems","A Survey of Deep Reinforcement Learning Algorithms for Motion Planning
+  and Control of Autonomous Vehicles","  In this survey, we systematically summarize the current literature on studies
+that apply reinforcement learning (RL) to the motion planning and control of
+autonomous vehicles. Many existing contributions can be attributed to the
+pipeline approach, which consists of many hand-crafted modules, each with a
+functionality selected for the ease of human interpretation. However, this
+approach does not automatically guarantee maximal performance due to the lack
+of a system-level optimization. Therefore, this paper also presents a growing
+trend of work that falls into the end-to-end approach, which typically offers
+better performance and smaller system scales. However, their performance also
+suffers from the lack of expert data and generalization issues. Finally, the
+remaining challenges applying deep RL algorithms on autonomous driving are
+summarized, and future research directions are also presented to tackle these
+challenges.
+",9,9,0.6954729,overlap,
+How can reinforcement learning improve autonomous vehicle navigation?,"How can reinforcement learning improve autonomous vehicle navigation? - Machine learning
+- Deep learning
+- Control algorithms
+- Computer vision
+- Sensor fusion
+- Path planning
+- Safety optimization
+- Simulated environments
+- Real-time decision making",Learning to Drive in a Day,"  We demonstrate the first application of deep reinforcement learning to
+autonomous driving. From randomly initialised parameters, our model is able to
+learn a policy for lane following in a handful of training episodes using a
+single monocular image as input. We provide a general and easy to obtain
+reward: the distance travelled by the vehicle without the safety driver taking
+control. We use a continuous, model-free deep reinforcement learning algorithm,
+with all exploration and optimisation performed on-vehicle. This demonstrates a
+new framework for autonomous driving which moves away from reliance on defined
+logical rules, mapping, and direct supervision. We discuss the challenges and
+opportunities to scale this approach to a broader range of autonomous driving
+tasks.
+",9,8,0.6856755,overlap,
+How can reinforcement learning improve autonomous vehicle navigation?,"How can reinforcement learning improve autonomous vehicle navigation? - Deep reinforcement learning
+- Path planning
+- Simulated environments
+- Machine learning models
+- Object detection",Autonomous Driving with Deep Reinforcement Learning in CARLA Simulation,"  Nowadays, autonomous vehicles are gaining traction due to their numerous
+potential applications in resolving a variety of other real-world challenges.
+However, developing autonomous vehicles need huge amount of training and
+testing before deploying it to real world. While the field of reinforcement
+learning (RL) has evolved into a powerful learning framework to the development
+of deep representation learning, and it is now capable of learning complicated
+policies in high-dimensional environments like in autonomous vehicles. In this
+regard, we make an effort, using Deep Q-Learning, to discover a method by which
+an autonomous car may maintain its lane at top speed while avoiding other
+vehicles. After that, we used CARLA simulation environment to test and verify
+our newly acquired policy based on the problem formulation.
+",9,9,0.6468596,overlap,
+How can reinforcement learning improve autonomous vehicle navigation?,"How can reinforcement learning improve autonomous vehicle navigation? - machine learning
+- deep learning
+- computer vision
+- sensor fusion
+- decision-making
+- optimization
+- safety constraints
+- real-time control
+- simulation
+- edge computing","Reinforcement Learning Based Safe Decision Making for Highway Autonomous
+  Driving","  In this paper, we develop a safe decision-making method for self-driving cars
+in a multi-lane, single-agent setting. The proposed approach utilizes deep
+reinforcement learning (RL) to achieve a high-level policy for safe tactical
+decision-making. We address two major challenges that arise solely in
+autonomous navigation. First, the proposed algorithm ensures that collisions
+never happen, and therefore accelerate the learning process. Second, the
+proposed algorithm takes into account the unobservable states in the
+environment. These states appear mainly due to the unpredictable behavior of
+other agents, such as cars, and pedestrians, and make the Markov Decision
+Process (MDP) problematic when dealing with autonomous navigation. Simulations
+from a well-known self-driving car simulator demonstrate the applicability of
+the proposed method
+",,9.333333333,0.68416333,feedback_adjusted,
+What methods exist for detecting outliers in financial time series?,"What methods exist for detecting outliers in financial time series? - Anomaly detection
+- Statistical techniques
+- Machine learning algorithms
+- Data preprocessing
+- Outlier detection methods",Outliers in dynamic factor models,"  Dynamic factor models have a wide range of applications in econometrics and
+applied economics. The basic motivation resides in their capability of reducing
+a large set of time series to only few indicators (factors). If the number of
+time series is large compared to the available number of observations then most
+information may be conveyed to the factors. This way low dimension models may
+be estimated for explaining and forecasting one or more time series of
+interest. It is desirable that outlier free time series be available for
+estimation. In practice, outlying observations are likely to arise at unknown
+dates due, for instance, to external unusual events or gross data entry errors.
+Several methods for outlier detection in time series are available. Most
+methods, however, apply to univariate time series while even methods designed
+for handling the multivariate framework do not include dynamic factor models
+explicitly. A method for discovering outliers occurrences in a dynamic factor
+model is introduced that is based on linear transforms of the observed data.
+Some strategies to separate outliers that add to the model and outliers within
+the common component are discussed. Applications to simulated and real data
+sets are presented to check the effectiveness of the proposed method.
+",8.666666667,8.666666667,0.67511964,overlap,
+What methods exist for detecting outliers in financial time series?,"What methods exist for detecting outliers in financial time series? - Anomaly detection
+- Statistical methods
+- Machine learning techniques
+- Time series analysis
+- Data preprocessing techniques","Machine learning based forecasting of significant daily returns in
+  foreign exchange markets","  Asset value forecasting has always attracted an enormous amount of interest
+among researchers in quantitative analysis. The advent of modern machine
+learning models has introduced new tools to tackle this classical problem. In
+this paper, we apply machine learning algorithms to hitherto unexplored
+question of forecasting instances of significant fluctuations in currency
+exchange rates. We perform analysis of nine modern machine learning algorithms
+using data on four major currency pairs over a 10 year period. A key
+contribution is the novel use of outlier detection methods for this purpose.
+Numerical experiments show that outlier detection methods substantially
+outperform traditional machine learning and finance techniques. In addition, we
+show that a recently proposed new outlier detection method PKDE produces best
+overall results. Our findings hold across different currency pairs,
+significance levels, and time horizons indicating the robustness of the
+proposed method.
+",8.333333333,8.666666667,0.6568352,overlap,
+What methods exist for detecting outliers in financial time series?,"What methods exist for detecting outliers in financial time series? - Anomaly detection
+- Outlier detection techniques
+- Statistical techniques for detecting anomalies
+- Machine learning for outlier detection
+- Time series analysis techniques",A review on outlier/anomaly detection in time series data,"  Recent advances in technology have brought major breakthroughs in data
+collection, enabling a large amount of data to be gathered over time and thus
+generating time series. Mining this data has become an important task for
+researchers and practitioners in the past few years, including the detection of
+outliers or anomalies that may represent errors or events of interest. This
+review aims to provide a structured and comprehensive state-of-the-art on
+outlier detection techniques in the context of time series. To this end, a
+taxonomy is presented based on the main aspects that characterize an outlier
+detection technique.
+",9,8.666666667,0.7724327,overlap,
+What methods exist for detecting outliers in financial time series?,"What methods exist for detecting outliers in financial time series? - Anomaly detection
+- Time series analysis
+- Statistical methods
+- Machine learning algorithms
+- Data preprocessing",Feedforward Neural Network for Time Series Anomaly Detection,"  Time series anomaly detection is usually formulated as finding outlier data
+points relative to some usual data, which is also an important problem in
+industry and academia. To ensure systems working stably, internet companies,
+banks and other companies need to monitor time series, which is called KPI (Key
+Performance Indicators), such as CPU used, number of orders, number of online
+users and so on. However, millions of time series have several shapes (e.g.
+seasonal KPIs, KPIs of timed tasks and KPIs of CPU used), so that it is very
+difficult to use a simple statistical model to detect anomaly for all kinds of
+time series. Although some anomaly detectors have developed many years and some
+supervised models are also available in this field, we find many methods have
+their own disadvantages. In this paper, we present our system, which is based
+on deep feedforward neural network and detect anomaly points of time series.
+The main difference between our system and other systems based on supervised
+models is that we do not need feature engineering of time series to train deep
+feedforward neural network in our system, which is essentially an end-to-end
+system.
+",6.666666667,,0.634165,expanded,
+What methods exist for detecting outliers in financial time series?,"What methods exist for detecting outliers in financial time series? - Anomaly detection
+- Statistical techniques
+- Machine learning algorithms
+- Data preprocessing
+- Time series analysis
+- Robust statistics
+- Outlier identification","How to find a unicorn: a novel model-free, unsupervised anomaly
+  detection method for time series","  Recognition of anomalous events is a challenging but critical task in many
+scientific and industrial fields, especially when the properties of anomalies
+are unknown. In this paper, we introduce a new anomaly concept called ""unicorn""
+or unique event and present a new, model-free, unsupervised detection algorithm
+to detect unicorns. The key component of the new algorithm is the Temporal
+Outlier Factor (TOF) to measure the uniqueness of events in continuous data
+sets from dynamic systems. The concept of unique events differs significantly
+from traditional outliers in many aspects: while repetitive outliers are no
+longer unique events, a unique event is not necessarily an outlier; it does not
+necessarily fall out from the distribution of normal activity. The performance
+of our algorithm was examined in recognizing unique events on different types
+of simulated data sets with anomalies and it was compared with the Local
+Outlier Factor (LOF) and discord discovery algorithms. TOF had superior
+performance compared to LOF and discord algorithms even in recognizing
+traditional outliers and it also recognized unique events that those did not.
+The benefits of the unicorn concept and the new detection method were
+illustrated by example data sets from very different scientific fields. Our
+algorithm successfully recognized unique events in those cases where they were
+already known such as the gravitational waves of a binary black hole merger on
+LIGO detector data and the signs of respiratory failure on ECG data series.
+Furthermore, unique events were found on the LIBOR data set of the last 30
+years.
+",6.333333333,,0.54704696,expanded,
+What methods exist for detecting outliers in financial time series?,"What methods exist for detecting outliers in financial time series? - Anomaly detection
+- Statistical methods
+- Machine learning
+- Time series analysis
+- Data preprocessing","Outliagnostics: Visualizing Temporal Discrepancy in Outlying Signatures
+  of Data Entries","  This paper presents an approach to analyzing two-dimensional temporal
+datasets focusing on identifying observations that are significant in
+calculating the outliers of a scatterplot. We also propose a prototype, called
+Outliagnostics, to guide users when interactively exploring abnormalities in
+large time series. Instead of focusing on detecting outliers at each time
+point, we monitor and display the discrepant temporal signatures of each data
+entry concerning the overall distributions. Our prototype is designed to handle
+these tasks in parallel to improve performance. To highlight the benefits and
+performance of our approach, we illustrate and validate the use of
+Outliagnostics on real-world datasets of various sizes in different parallelism
+configurations. This work also discusses how to extend these ideas to handle
+time series with a higher number of dimensions and provides a prototype for
+this type of datasets.
+",,6.666666667,0.6322887,feedback_adjusted,
+What methods exist for detecting outliers in financial time series?,"What methods exist for detecting outliers in financial time series? - Anomaly detection
+- Statistical methods
+- Machine learning algorithms
+- Time series analysis
+- Quantitative finance
+- Data preprocessing
+- Neural networks",A Review of Open Source Software Tools for Time Series Analysis,"  Time series data is used in a wide range of real world applications. In a
+variety of domains , detailed analysis of time series data (via Forecasting and
+Anomaly Detection) leads to a better understanding of how events associated
+with a specific time instance behave. Time Series Analysis (TSA) is commonly
+performed with plots and traditional models. Machine Learning (ML) approaches ,
+on the other hand , have seen an increase in the state of the art for
+Forecasting and Anomaly Detection because they provide comparable results when
+time and data constraints are met. A number of time series toolboxes are
+available that offer rich interfaces to specific model classes (ARIMA/filters ,
+neural networks) or framework interfaces to isolated time series modelling
+tasks (forecasting , feature extraction , annotation , classification).
+Nonetheless , open source machine learning capabilities for time series remain
+limited , and existing libraries are frequently incompatible with one another.
+The goal of this paper is to provide a concise and user friendly overview of
+the most important open source tools for time series analysis. This article
+examines two related toolboxes (1) forecasting and (2) anomaly detection. This
+paper describes a typical Time Series Analysis (TSA) framework with an
+architecture and lists the main features of TSA framework. The tools are
+categorized based on the criteria of analysis tasks completed , data
+preparation methods employed , and evaluation methods for results generated.
+This paper presents quantitative analysis and discusses the current state of
+actively developed open source Time Series Analysis frameworks. Overall , this
+article considered 60 time series analysis tools , and 32 of which provided
+forecasting modules , and 21 packages included anomaly detection.
+",,5.666666667,0.5484321,feedback_adjusted,
+What are recent innovations in synthetic data generation for NLP?,"What are recent innovations in synthetic data generation for NLP? - Transfer learning
+- Generative adversarial networks (GANs)
+- Transformer models
+- Synthetic data augmentation
+- Language model pretraining
+- Data augmentation techniques","Generative AI for Synthetic Data Generation: Methods, Challenges and the
+  Future","  The recent surge in research focused on generating synthetic data from large
+language models (LLMs), especially for scenarios with limited data
+availability, marks a notable shift in Generative Artificial Intelligence (AI).
+Their ability to perform comparably to real-world data positions this approach
+as a compelling solution to low-resource challenges. This paper delves into
+advanced technologies that leverage these gigantic LLMs for the generation of
+task-specific training data. We outline methodologies, evaluation techniques,
+and practical applications, discuss the current limitations, and suggest
+potential pathways for future research.
+",8.666666667,8.666666667,0.65776056,overlap,
+What are recent innovations in synthetic data generation for NLP?,"What are recent innovations in synthetic data generation for NLP? - Differential privacy
+- Generative models
+- Data augmentation techniques
+- Transfer learning
+- Unsupervised learning","On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation: A
+  Survey","  Within the evolving landscape of deep learning, the dilemma of data quantity
+and quality has been a long-standing problem. The recent advent of Large
+Language Models (LLMs) offers a data-centric solution to alleviate the
+limitations of real-world data with synthetic data generation. However, current
+investigations into this field lack a unified framework and mostly stay on the
+surface. Therefore, this paper provides an organization of relevant studies
+based on a generic workflow of synthetic data generation. By doing so, we
+highlight the gaps within existing research and outline prospective avenues for
+future study. This work aims to shepherd the academic and industrial
+communities towards deeper, more methodical inquiries into the capabilities and
+applications of LLMs-driven synthetic data generation.
+",8,8.666666667,0.7276604,overlap,
+What are recent innovations in synthetic data generation for NLP?,"What are recent innovations in synthetic data generation for NLP? - Neural networks
+- Transformer models
+- Data augmentation
+- Language modeling
+- Generative adversarial networks (GANs)
+- Privacy preservation
+- Data synthesis techniques
+- Benchmark datasets",Does Synthetic Data Make Large Language Models More Efficient?,"  Natural Language Processing (NLP) has undergone transformative changes with
+the advent of deep learning methodologies. One challenge persistently
+confronting researchers is the scarcity of high-quality, annotated datasets
+that drive these models. This paper explores the nuances of synthetic data
+generation in NLP, with a focal point on template-based question generation. By
+assessing its advantages, including data augmentation potential and the
+introduction of structured variety, we juxtapose these benefits against
+inherent limitations, such as the risk of overfitting and the constraints posed
+by pre-defined templates. Drawing from empirical evaluations, we demonstrate
+the impact of template-based synthetic data on the performance of modern
+transformer models. We conclude by emphasizing the delicate balance required
+between synthetic and real-world data, and the future trajectories of
+integrating synthetic data in model training pipelines. The findings aim to
+guide NLP practitioners in harnessing synthetic data's potential, ensuring
+optimal model performance in diverse applications.
+",8,8,0.6357754,overlap,
+What are recent innovations in synthetic data generation for NLP?,"What are recent innovations in synthetic data generation for NLP? - Transformer models 
+- Transfer learning 
+- Data augmentation techniques 
+- Privacy-preserving data generation 
+- Adversarial training 
+- Semi-supervised learning 
+- Unsupervised learning",Machine Learning for Synthetic Data Generation: A Review,"  Machine learning heavily relies on data, but real-world applications often
+encounter various data-related issues. These include data of poor quality,
+insufficient data points leading to under-fitting of machine learning models,
+and difficulties in data access due to concerns surrounding privacy, safety,
+and regulations. In light of these challenges, the concept of synthetic data
+generation emerges as a promising alternative that allows for data sharing and
+utilization in ways that real-world data cannot facilitate. This paper presents
+a comprehensive systematic review of existing studies that employ machine
+learning models for the purpose of generating synthetic data. The review
+encompasses various perspectives, starting with the applications of synthetic
+data generation, spanning computer vision, speech, natural language processing,
+healthcare, and business domains. Additionally, it explores different machine
+learning methods, with particular emphasis on neural network architectures and
+deep generative models. The paper also addresses the crucial aspects of privacy
+and fairness concerns related to synthetic data generation. Furthermore, this
+study identifies the challenges and opportunities prevalent in this emerging
+field, shedding light on the potential avenues for future research. By delving
+into the intricacies of synthetic data generation, this paper aims to
+contribute to the advancement of knowledge and inspire further exploration in
+synthetic data generation.
+",6.666666667,,0.625636,expanded,
+What are recent innovations in synthetic data generation for NLP?,"What are recent innovations in synthetic data generation for NLP? - Neural networks
+- Generative models
+- Transfer learning
+- Domain adaptation
+- Privacy preservation",Best Practices and Lessons Learned on Synthetic Data for Language Models,"  The success of AI models relies on the availability of large, diverse, and
+high-quality datasets, which can be challenging to obtain due to data scarcity,
+privacy concerns, and high costs. Synthetic data has emerged as a promising
+solution by generating artificial data that mimics real-world patterns. This
+paper provides an overview of synthetic data research, discussing its
+applications, challenges, and future directions. We present empirical evidence
+from prior art to demonstrate its effectiveness and highlight the importance of
+ensuring its factuality, fidelity, and unbiasedness. We emphasize the need for
+responsible use of synthetic data to build more powerful, inclusive, and
+trustworthy language models.
+",6.333333333,,0.69508004,expanded,
+What are recent innovations in synthetic data generation for NLP?,"What are recent innovations in synthetic data generation for NLP? - Generative models
+- Neural networks
+- Text data augmentation
+- Privacy-preserving methods
+- Transfer learning","Data Generation using Large Language Models for Text Classification: An
+  Empirical Case Study","  Using Large Language Models (LLMs) to generate synthetic data for model
+training has become increasingly popular in recent years. While LLMs are
+capable of producing realistic training data, the effectiveness of data
+generation is influenced by various factors, including the choice of prompt,
+task complexity, and the quality, quantity, and diversity of the generated
+data. In this work, we focus exclusively on using synthetic data for text
+classification tasks. Specifically, we use natural language understanding (NLU)
+models trained on synthetic data to assess the quality of synthetic data from
+different generation approaches. This work provides an empirical analysis of
+the impact of these factors and offers recommendations for better data
+generation practices.
+",,8.333333333,0.59904724,feedback_adjusted,
+What are recent innovations in synthetic data generation for NLP?,"What are recent innovations in synthetic data generation for NLP? - GANs (Generative Adversarial Networks)
+- Transformer models
+- Privacy-preserving data generation
+- Multi-modal data synthesis",Better Synthetic Data by Retrieving and Transforming Existing Datasets,"  Despite recent advances in large language models, building dependable and
+deployable NLP models typically requires abundant, high-quality training data.
+However, task-specific data is not available for many use cases, and manually
+curating task-specific data is labor-intensive. Recent work has studied
+prompt-driven synthetic data generation using large language models, but these
+generated datasets tend to lack complexity and diversity. To address these
+limitations, we introduce a method, DataTune, to make better use of existing,
+publicly available datasets to improve automatic dataset generation. DataTune
+performs dataset transformation, enabling the repurposing of publicly available
+datasets into a format that is directly aligned with the specific requirements
+of target tasks. On a diverse set of language-based tasks from the BIG-Bench
+benchmark, we find that finetuning language models via DataTune improves over a
+few-shot prompting baseline by 49% and improves over existing methods that use
+synthetic or retrieved training data by 34%. We find that dataset
+transformation significantly increases the diversity and difficulty of
+generated data on many tasks. We integrate DataTune into an open-source
+repository to make this method accessible to the community:
+https://github.com/neulab/prompt2model.
+",,8,0.593405,feedback_adjusted,
+How is unsupervised learning being used in anomaly detection?,"How is unsupervised learning being used in anomaly detection? - Clustering algorithms
+- Novelty detection
+- Outlier detection
+- Machine learning techniques 
+- Dimensionality reduction",A Bayesian Ensemble for Unsupervised Anomaly Detection,"  Methods for unsupervised anomaly detection suffer from the fact that the data
+is unlabeled, making it difficult to assess the optimality of detection
+algorithms. Ensemble learning has shown exceptional results in classification
+and clustering problems, but has not seen as much research in the context of
+outlier detection. Existing methods focus on combining output scores of
+individual detectors, but this leads to outputs that are not easily
+interpretable. In this paper, we introduce a theoretical foundation for
+combining individual detectors with Bayesian classifier combination. Not only
+are posterior distributions easily interpreted as the probability distribution
+of anomalies, but bias, variance, and individual error rates of detectors are
+all easily obtained. Performance on real-world datasets shows high accuracy
+across varied types of time series data.
+",9.333333333,9.333333333,0.62767255,overlap,
+How is unsupervised learning being used in anomaly detection?,"How is unsupervised learning being used in anomaly detection? - Clustering algorithms
+- Outlier detection
+- Anomaly detection techniques
+- Neural networks
+- Machine learning models
+- Data mining methods",Elsa: Energy-based learning for semi-supervised anomaly detection,"  Anomaly detection aims at identifying deviant instances from the normal data
+distribution. Many advances have been made in the field, including the
+innovative use of unsupervised contrastive learning. However, existing methods
+generally assume clean training data and are limited when the data contain
+unknown anomalies. This paper presents Elsa, a novel semi-supervised anomaly
+detection approach that unifies the concept of energy-based models with
+unsupervised contrastive learning. Elsa instills robustness against any data
+contamination by a carefully designed fine-tuning step based on the new energy
+function that forces the normal data to be divided into classes of prototypes.
+Experiments on multiple contamination scenarios show the proposed model
+achieves SOTA performance. Extensive analyses also verify the contribution of
+each component in the proposed model. Beyond the experiments, we also offer a
+theoretical interpretation of why contrastive learning alone cannot detect
+anomalies under data contamination.
+",9,,0.6672338,expanded,
+How is unsupervised learning being used in anomaly detection?,"How is unsupervised learning being used in anomaly detection? - clustering algorithms
+- anomaly detection techniques
+- neural networks
+- data mining techniques
+- dimensionality reduction
+- novelty detection algorithms
+- outlier detection techniques","Transfer Learning from an Auxiliary Discriminative Task for Unsupervised
+  Anomaly Detection","  Unsupervised anomaly detection from high dimensional data like mobility
+networks is a challenging task. Study of different approaches of feature
+engineering from such high dimensional data have been a focus of research in
+this field. This study aims to investigate the transferability of features
+learned by network classification to unsupervised anomaly detection. We propose
+use of an auxiliary classification task to extract features from unlabelled
+data by supervised learning, which can be used for unsupervised anomaly
+detection. We validate this approach by designing experiments to detect
+anomalies in mobility network data from New York and Taipei, and compare the
+results to traditional unsupervised feature learning approaches of PCA and
+autoencoders. We find that our feature learning approach yields best anomaly
+detection performance for both datasets, outperforming other studied
+approaches. This establishes the utility of this approach to feature
+engineering, which can be applied to other problems of similar nature.
+",9,,0.651183,expanded,
+How is unsupervised learning being used in anomaly detection?,"How is unsupervised learning being used in anomaly detection? - Clustering
+- Outlier detection
+- Dimensionality reduction
+- Machine learning algorithms
+- Data mining techniques
+- Healthcare applications
+- Cybersecurity use cases",Anomaly Detection by Recombining Gated Unsupervised Experts,"  Anomaly detection has been considered under several extents of prior
+knowledge. Unsupervised methods do not require any labelled data, whereas
+semi-supervised methods leverage some known anomalies. Inspired by
+mixture-of-experts models and the analysis of the hidden activations of neural
+networks, we introduce a novel data-driven anomaly detection method called
+ARGUE. Our method is not only applicable to unsupervised and semi-supervised
+environments, but also profits from prior knowledge of self-supervised
+settings. We designed ARGUE as a combination of dedicated expert networks,
+which specialise on parts of the input data. For its final decision, ARGUE
+fuses the distributed knowledge across the expert systems using a gated
+mixture-of-experts architecture. Our evaluation motivates that prior knowledge
+about the normal data distribution may be as valuable as known anomalies.
+",9,,0.638342,expanded,
+How is unsupervised learning being used in anomaly detection?,"How is unsupervised learning being used in anomaly detection? - Clustering algorithms
+- Outlier detection
+- Machine learning techniques
+- Data mining applications
+- Novelty detection techniques","Unsupervised anomaly detection algorithms on real-world data: how many
+  do we need?","  In this study we evaluate 32 unsupervised anomaly detection algorithms on 52
+real-world multivariate tabular datasets, performing the largest comparison of
+unsupervised anomaly detection algorithms to date. On this collection of
+datasets, the $k$-thNN (distance to the $k$-nearest neighbor) algorithm
+significantly outperforms the most other algorithms. Visualizing and then
+clustering the relative performance of the considered algorithms on all
+datasets, we identify two clear clusters: one with ``local'' datasets, and
+another with ``global'' datasets. ``Local'' anomalies occupy a region with low
+density when compared to nearby samples, while ``global'' occupy an overall low
+density region in the feature space. On the local datasets the $k$NN
+($k$-nearest neighbor) algorithm comes out on top. On the global datasets, the
+EIF (extended isolation forest) algorithm performs the best. Also taking into
+consideration the algorithms' computational complexity, a toolbox with these
+three unsupervised anomaly detection algorithms suffices for finding anomalies
+in this representative collection of multivariate datasets. By providing access
+to code and datasets, our study can be easily reproduced and extended with more
+algorithms and/or datasets.
+",9,,0.63992393,expanded,
+How is unsupervised learning being used in anomaly detection?,"How is unsupervised learning being used in anomaly detection? - Clustering algorithms
+- Novelty detection
+- Outlier detection
+- Machine learning applications
+- Data mining techniques",Less is More: Building Selective Anomaly Ensembles,"  Ensemble techniques for classification and clustering have long proven
+effective, yet anomaly ensembles have been barely studied. In this work, we tap
+into this gap and propose a new ensemble approach for anomaly mining, with
+application to event detection in temporal graphs. Our method aims to combine
+results from heterogeneous detectors with varying outputs, and leverage the
+evidence from multiple sources to yield better performance. However, trusting
+all the results may deteriorate the overall ensemble accuracy, as some
+detectors may fall short and provide inaccurate results depending on the nature
+of the data in hand. This suggests that being selective in which results to
+combine is vital in building effective ensembles---hence ""less is more"".
+  In this paper we propose SELECT; an ensemble approach for anomaly mining that
+employs novel techniques to automatically and systematically select the results
+to assemble in a fully unsupervised fashion. We apply our method to event
+detection in temporal graphs, where SELECT successfully utilizes five base
+detectors and seven consensus methods under a unified ensemble framework. We
+provide extensive quantitative evaluation of our approach on five real-world
+datasets (four with ground truth), including Enron email communications, New
+York Times news corpus, and World Cup 2014 Twitter news feed. Thanks to its
+selection mechanism, SELECT yields superior performance compared to individual
+detectors alone, the full ensemble (naively combining all results), and an
+existing diversity-based ensemble.
+",,6.666666667,0.4869981,feedback_adjusted,
+How is unsupervised learning being used in anomaly detection?,"How is unsupervised learning being used in anomaly detection? - Clustering
+- Outlier detection
+- Machine learning algorithms
+- Data mining techniques
+- Dimensionality reduction
+- Data preprocessing
+- Novelty detection","Estimating the Contamination Factor's Distribution in Unsupervised
+  Anomaly Detection","  Anomaly detection methods identify examples that do not follow the expected
+behaviour, typically in an unsupervised fashion, by assigning real-valued
+anomaly scores to the examples based on various heuristics. These scores need
+to be transformed into actual predictions by thresholding, so that the
+proportion of examples marked as anomalies equals the expected proportion of
+anomalies, called contamination factor. Unfortunately, there are no good
+methods for estimating the contamination factor itself. We address this need
+from a Bayesian perspective, introducing a method for estimating the posterior
+distribution of the contamination factor of a given unlabeled dataset. We
+leverage on outputs of several anomaly detectors as a representation that
+already captures the basic notion of anomalousness and estimate the
+contamination using a specific mixture formulation. Empirically on 22 datasets,
+we show that the estimated distribution is well-calibrated and that setting the
+threshold using the posterior mean improves the anomaly detectors' performance
+over several alternative methods. All code is publicly available for full
+reproducibility.
+",,9,0.6112598,feedback_adjusted,
+How is unsupervised learning being used in anomaly detection?,"How is unsupervised learning being used in anomaly detection? - Clustering algorithms
+- Outlier detection
+- Dimensionality reduction
+- Novelty detection
+- Anomaly recognition",Open-Set Multivariate Time-Series Anomaly Detection,"  Numerous methods for time series anomaly detection (TSAD) methods have
+emerged in recent years. Most existing methods are unsupervised and assume the
+availability of normal training samples only, while few supervised methods have
+shown superior performance by incorporating labeled anomalous samples in the
+training phase. However, certain anomaly types are inherently challenging for
+unsupervised methods to differentiate from normal data, while supervised
+methods are constrained to detecting anomalies resembling those present during
+training, failing to generalize to unseen anomaly classes. This paper is the
+first attempt in providing a novel approach for the open-set TSAD problem, in
+which a small number of labeled anomalies from a limited class of anomalies are
+visible in the training phase, with the objective of detecting both seen and
+unseen anomaly classes in the test phase. The proposed method, called
+Multivariate Open-Set timeseries Anomaly Detection (MOSAD) consists of three
+primary modules: a Feature Extractor to extract meaningful time-series
+features; a Multi-head Network consisting of Generative-, Deviation-, and
+Contrastive heads for capturing both seen and unseen anomaly classes; and an
+Anomaly Scoring module leveraging the insights of the three heads to detect
+anomalies. Extensive experiments on three real-world datasets consistently show
+that our approach surpasses existing methods under various experimental
+settings, thus establishing a new state-of-the-art performance in the TSAD
+field.
+",,7.333333333,0.5711642,feedback_adjusted,
+How is unsupervised learning being used in anomaly detection?,"How is unsupervised learning being used in anomaly detection? - Clustering
+- Outlier detection
+- Anomaly identification
+- Machine learning algorithms
+- Feature representation",Learning Ensembles of Anomaly Detectors on Synthetic Data,"  The main aim of this work is to develop and implement an automatic anomaly
+detection algorithm for meteorological time-series. To achieve this goal we
+develop an approach to constructing an ensemble of anomaly detectors in
+combination with adaptive threshold selection based on artificially generated
+anomalies. We demonstrate the efficiency of the proposed method by integrating
+the corresponding implementation into ``Minimax-94'' road weather information
+system.
+",,5.666666667,0.4804706,feedback_adjusted,
+What are the latest approaches to causal inference in data science?,"What are the latest approaches to causal inference in data science? - Counterfactual inference
+- Causal inference methods
+- Propensity score matching
+- Instrumental variables
+- Mediation analysis 
+- Bayesian causal inference","Data-Driven Causal Effect Estimation Based on Graphical Causal
+  Modelling: A Survey","  In many fields of scientific research and real-world applications, unbiased
+estimation of causal effects from non-experimental data is crucial for
+understanding the mechanism underlying the data and for decision-making on
+effective responses or interventions. A great deal of research has been
+conducted to address this challenging problem from different angles. For
+estimating causal effect in observational data, assumptions such as Markov
+condition, faithfulness and causal sufficiency are always made. Under the
+assumptions, full knowledge such as, a set of covariates or an underlying
+causal graph, is typically required. A practical challenge is that in many
+applications, no such full knowledge or only some partial knowledge is
+available. In recent years, research has emerged to use search strategies based
+on graphical causal modelling to discover useful knowledge from data for causal
+effect estimation, with some mild assumptions, and has shown promise in
+tackling the practical challenge. In this survey, we review these data-driven
+methods on causal effect estimation for a single treatment with a single
+outcome of interest and focus on the challenges faced by data-driven causal
+effect estimation. We concisely summarise the basic concepts and theories that
+are essential for data-driven causal effect estimation using graphical causal
+modelling but are scattered around the literature. We identify and discuss the
+challenges faced by data-driven causal effect estimation and characterise the
+existing methods by their assumptions and the approaches to tackling the
+challenges. We analyse the strengths and limitations of the different types of
+methods and present an empirical evaluation to support the discussions. We hope
+this review will motivate more researchers to design better data-driven methods
+based on graphical causal modelling for the challenging problem of causal
+effect estimation.
+",8.333333333,8.666666667,0.63650924,overlap,
+What are the latest approaches to causal inference in data science?,"What are the latest approaches to causal inference in data science? - Counterfactual reasoning
+- Bayesian networks
+- Propensity score matching
+- Instrumental variables
+- Granger causality
+- Mediation analysis
+- Treatment effects",A Survey of Learning Causality with Data: Problems and Methods,"  This work considers the question of how convenient access to copious data
+impacts our ability to learn causal effects and relations. In what ways is
+learning causality in the era of big data different from -- or the same as --
+the traditional one? To answer this question, this survey provides a
+comprehensive and structured review of both traditional and frontier methods in
+learning causality and relations along with the connections between causality
+and machine learning. This work points out on a case-by-case basis how big data
+facilitates, complicates, or motivates each approach.
+",8.333333333,8.666666667,0.637679338,overlap,
+What are the latest approaches to causal inference in data science?,"What are the latest approaches to causal inference in data science? - Machine learning
+- Counterfactual reasoning
+- Treatment effect estimation
+- Propensity score matching
+- Instrumental variables
+- Structural equation modeling",A Survey on Causal Discovery: Theory and Practice,"  Understanding the laws that govern a phenomenon is the core of scientific
+progress. This is especially true when the goal is to model the interplay
+between different aspects in a causal fashion. Indeed, causal inference itself
+is specifically designed to quantify the underlying relationships that connect
+a cause to its effect. Causal discovery is a branch of the broader field of
+causality in which causal graphs is recovered from data (whenever possible),
+enabling the identification and estimation of causal effects. In this paper, we
+explore recent advancements in a unified manner, provide a consistent overview
+of existing algorithms developed under different settings, report useful tools
+and data, present real-world applications to understand why and how these
+methods can be fruitfully exploited.
+",9,8.666666667,0.695041418,overlap,
+What are the latest approaches to causal inference in data science?,"What are the latest approaches to causal inference in data science? - Bayesian networks
+- Instrumental variables
+- Propensity scores
+- Difference-in-differences
+- Granger causality
+- Counterfactual analysis
+- Treatment effects
+- Directed acyclic graphs (DAGs)",A Survey on Causal Discovery Methods for I.I.D. and Time Series Data,"  The ability to understand causality from data is one of the major milestones
+of human-level intelligence. Causal Discovery (CD) algorithms can identify the
+cause-effect relationships among the variables of a system from related
+observational data with certain assumptions. Over the years, several methods
+have been developed primarily based on the statistical properties of data to
+uncover the underlying causal mechanism. In this study, we present an extensive
+discussion on the methods designed to perform causal discovery from both
+independent and identically distributed (I.I.D.) data and time series data. For
+this purpose, we first introduce the common terminologies used in causal
+discovery literature and then provide a comprehensive discussion of the
+algorithms designed to identify causal relations in different settings. We
+further discuss some of the benchmark datasets available for evaluating the
+algorithmic performance, off-the-shelf tools or software packages to perform
+causal discovery readily, and the common metrics used to evaluate these
+methods. We also evaluate some widely used causal discovery algorithms on
+multiple benchmark datasets and compare their performances. Finally, we
+conclude by discussing the research challenges and the applications of causal
+discovery algorithms in multiple areas of interest.
+",9,8.333333333,0.679723024,overlap,
+What are the latest approaches to causal inference in data science?,"What are the latest approaches to causal inference in data science? - Machine learning
+- Treatment effect
+- Counterfactual reasoning
+- Propensity score
+- Observational studies
+- Granger causality",A Primer on Causality in Data Science,"  Many questions in Data Science are fundamentally causal in that our objective
+is to learn the effect of some exposure, randomized or not, on an outcome
+interest. Even studies that are seemingly non-causal, such as those with the
+goal of prediction or prevalence estimation, have causal elements, including
+differential censoring or measurement. As a result, we, as Data Scientists,
+need to consider the underlying causal mechanisms that gave rise to the data,
+rather than simply the pattern or association observed in those data. In this
+work, we review the 'Causal Roadmap' of Petersen and van der Laan (2014) to
+provide an introduction to some key concepts in causal inference. Similar to
+other causal frameworks, the steps of the Roadmap include clearly stating the
+scientific question, defining of the causal model, translating the scientific
+question into a causal parameter, assessing the assumptions needed to express
+the causal parameter as a statistical estimand, implementation of statistical
+estimators including parametric and semi-parametric methods, and interpretation
+of our findings. We believe that using such a framework in Data Science will
+help to ensure that our statistical analyses are guided by the scientific
+question driving our research, while avoiding over-interpreting our results. We
+focus on the effect of an exposure occurring at a single time point and
+highlight the use of targeted maximum likelihood estimation (TMLE) with Super
+Learner.
+",6.666666667,,0.673508465,expanded,
+What are the latest approaches to causal inference in data science?,"What are the latest approaches to causal inference in data science? - Propensity score matching
+- Instrumental variables
+- Difference-in-differences
+- Granger causality
+- Bayesian networks
+- Mediation analysis","Causality, Causal Discovery, and Causal Inference in Structural
+  Engineering","  Much of our experiments are designed to uncover the cause(s) and effect(s)
+behind a data generating mechanism (i.e., phenomenon) we happen to be
+interested in. Uncovering such relationships allows us to identify the true
+working of a phenomenon and, most importantly, articulate a model that may
+enable us to further explore the phenomenon on hand and/or allow us to predict
+it accurately. Fundamentally, such models are likely to be derived via a causal
+approach (as opposed to an observational or empirical mean). In this approach,
+causal discovery is required to create a causal model, which can then be
+applied to infer the influence of interventions, and answer any hypothetical
+questions (i.e., in the form of What ifs? Etc.) that we might have. This paper
+builds a case for causal discovery and causal inference and contrasts that
+against traditional machine learning approaches; all from a civil and
+structural engineering perspective. More specifically, this paper outlines the
+key principles of causality and the most commonly used algorithms and packages
+for causal discovery and causal inference. Finally, this paper also presents a
+series of examples and case studies of how causal concepts can be adopted for
+our domain.
+",,6,0.659995914,feedback_adjusted,
+How is AI being used to optimize supply chain management?,"How is AI being used to optimize supply chain management? - Machine learning
+- Predictive analytics
+- Inventory management
+- Demand forecasting
+- Transportation optimization
+- Vendor management
+- Risk mitigation","Optimizing Inventory Routing: A Decision-Focused Learning Approach using
+  Neural Networks","  Inventory Routing Problem (IRP) is a crucial challenge in supply chain
+management as it involves optimizing efficient route selection while
+considering the uncertainty of inventory demand planning. To solve IRPs,
+usually a two-stage approach is employed, where demand is predicted using
+machine learning techniques first, and then an optimization algorithm is used
+to minimize routing costs. Our experiment shows machine learning models fall
+short of achieving perfect accuracy because inventory levels are influenced by
+the dynamic business environment, which, in turn, affects the optimization
+problem in the next stage, resulting in sub-optimal decisions. In this paper,
+we formulate and propose a decision-focused learning-based approach to solving
+real-world IRPs. This approach directly integrates inventory prediction and
+routing optimization within an end-to-end system potentially ensuring a robust
+supply chain strategy.
+",9,9.333333333,0.579098225,overlap,
+How is AI being used to optimize supply chain management?,"How is AI being used to optimize supply chain management? - Machine learning
+- Automation
+- Predictive analytics
+- Inventory optimization
+- Demand forecasting
+- Logistics optimization
+- Data-driven decision making
+- Artificial intelligence applications in supply chain","Implementing Reinforcement Learning Algorithms in Retail Supply Chains
+  with OpenAI Gym Toolkit","  From cutting costs to improving customer experience, forecasting is the crux
+of retail supply chain management (SCM) and the key to better supply chain
+performance. Several retailers are using AI/ML models to gather datasets and
+provide forecast guidance in applications such as Cognitive Demand Forecasting,
+Product End-of-Life, Forecasting, and Demand Integrated Product Flow. Early
+work in these areas looked at classical algorithms to improve on a gamut of
+challenges such as network flow and graphs. But the recent disruptions have
+made it critical for supply chains to have the resiliency to handle unexpected
+events. The biggest challenge lies in matching supply with demand.
+  Reinforcement Learning (RL) with its ability to train systems to respond to
+unforeseen environments, is being increasingly adopted in SCM to improve
+forecast accuracy, solve supply chain optimization challenges, and train
+systems to respond to unforeseen circumstances. Companies like UPS and Amazon
+have developed RL algorithms to define winning AI strategies and keep up with
+rising consumer delivery expectations. While there are many ways to build RL
+algorithms for supply chain use cases, the OpenAI Gym toolkit is becoming the
+preferred choice because of the robust framework for event-driven simulations.
+  This white paper explores the application of RL in supply chain forecasting
+and describes how to build suitable RL models and algorithms by using the
+OpenAI Gym toolkit.
+",9.333333333,9.333333333,0.629852414,overlap,
+How is AI being used to optimize supply chain management?,"How is AI being used to optimize supply chain management? - Machine learning
+- Predictive analytics
+- Intelligent automation
+- Logistics optimization
+- Demand forecasting
+- Inventory optimization","Artificial Intelligence in Reverse Supply Chain Management: The State of
+  the Art","  Product take-back legislation forces manufacturers to bear the costs of
+collection and disposal of products that have reached the end of their useful
+lives. In order to reduce these costs, manufacturers can consider reuse,
+remanufacturing and/or recycling of components as an alternative to disposal.
+The implementation of such alternatives usually requires an appropriate reverse
+supply chain management. With the concepts of reverse supply chain are gaining
+popularity in practice, the use of artificial intelligence approaches in these
+areas is also becoming popular. As a result, the purpose of this paper is to
+give an overview of the recent publications concerning the application of
+artificial intelligence techniques to reverse supply chain with emphasis on
+certain types of product returns.
+",8.333333333,,0.579616427,expanded,
+How is AI being used to optimize supply chain management?,"How is AI being used to optimize supply chain management? - Predictive analytics
+- Machine learning algorithms
+- Inventory management
+- Demand forecasting
+- Automation technologies","Big Data - Supply Chain Management Framework for Forecasting: Data
+  Preprocessing and Machine Learning Techniques","  This article intends to systematically identify and comparatively analyze
+state-of-the-art supply chain (SC) forecasting strategies and technologies. A
+novel framework has been proposed incorporating Big Data Analytics in SC
+Management (problem identification, data sources, exploratory data analysis,
+machine-learning model training, hyperparameter tuning, performance evaluation,
+and optimization), forecasting effects on human-workforce, inventory, and
+overall SC. Initially, the need to collect data according to SC strategy and
+how to collect them has been discussed. The article discusses the need for
+different types of forecasting according to the period or SC objective. The SC
+KPIs and the error-measurement systems have been recommended to optimize the
+top-performing model. The adverse effects of phantom inventory on forecasting
+and the dependence of managerial decisions on the SC KPIs for determining model
+performance parameters and improving operations management, transparency, and
+planning efficiency have been illustrated. The cyclic connection within the
+framework introduces preprocessing optimization based on the post-process KPIs,
+optimizing the overall control process (inventory management, workforce
+determination, cost, production and capacity planning). The contribution of
+this research lies in the standard SC process framework proposal, recommended
+forecasting data analysis, forecasting effects on SC performance, machine
+learning algorithms optimization followed, and in shedding light on future
+research.
+",8.333333333,,0.52016753,expanded,
+How is AI being used to optimize supply chain management?,"How is AI being used to optimize supply chain management? - Machine learning
+- Predictive analytics
+- Inventory optimization
+- Demand forecasting
+- Supplier management
+- Logistics optimization
+- Automation
+- Decision support systems
+- Artificial intelligence applications","Evaluation of key impression of resilient supply chain based on
+  artificial intelligence of things (AIoT)","  In recent years, the high complexity of the business environment, dynamism
+and environmental change, uncertainty and concepts such as globalization and
+increasing competition of organizations in the national and international arena
+have caused many changes in the equations governing the supply chain. In this
+case, supply chain organizations must always be prepared for a variety of
+challenges and dynamic environmental changes. One of the effective solutions to
+face these challenges is to create a resilient supply chain. Resilient supply
+chain is able to overcome uncertainties and disruptions in the business
+environment. The competitive advantage of this supply chain does not depend
+only on low costs, high quality, reduced latency and high level of service.
+Rather, it has the ability of the chain to avoid catastrophes and overcome
+critical situations, and this is the resilience of the supply chain. AI and IoT
+technologies and their combination, called AIoT, have played a key role in
+improving supply chain performance in recent years and can therefore increase
+supply chain resilience. For this reason, in this study, an attempt was made to
+better understand the impact of these technologies on equity by examining the
+dimensions and components of the Artificial Intelligence of Things (AIoT)-based
+supply chain. Finally, using nonlinear fuzzy decision making method, the most
+important components of the impact on the resilient smart supply chain are
+determined. Understanding this assessment can help empower the smart supply
+chain.
+",8,,0.639692187,expanded,
+How is AI being used to optimize supply chain management?,"How is AI being used to optimize supply chain management? - Machine learning
+- Predictive analytics
+- Inventory management
+- Logistics
+- Artificial intelligence applications
+- Demand forecasting","Comparing Deep Reinforcement Learning Algorithms in Two-Echelon Supply
+  Chains","  In this study, we analyze and compare the performance of state-of-the-art
+deep reinforcement learning algorithms for solving the supply chain inventory
+management problem. This complex sequential decision-making problem consists of
+determining the optimal quantity of products to be produced and shipped across
+different warehouses over a given time horizon. In particular, we present a
+mathematical formulation of a two-echelon supply chain environment with
+stochastic and seasonal demand, which allows managing an arbitrary number of
+warehouses and product types. Through a rich set of numerical experiments, we
+compare the performance of different deep reinforcement learning algorithms
+under various supply chain structures, topologies, demands, capacities, and
+costs. The results of the experimental plan indicate that deep reinforcement
+learning algorithms outperform traditional inventory management strategies,
+such as the static (s, Q)-policy. Furthermore, this study provides detailed
+insight into the design and development of an open-source software library that
+provides a customizable environment for solving the supply chain inventory
+management problem using a wide range of data-driven approaches.
+",,8.666666667,0.597366452,feedback_adjusted,
+How is AI being used to optimize supply chain management?,"How is AI being used to optimize supply chain management? - Machine learning algorithms
+- Predictive analytics
+- Inventory management
+- Demand forecasting
+- Autonomous vehicles
+- Robotics and automation
+- Real-time decision-making
+- Vendor management
+- Data-driven insights","Learning General Inventory Management Policy for Large Supply Chain
+  Network","  Inventory management in warehouses directly affects profits made by
+manufacturers. Particularly, large manufacturers produce a very large variety
+of products that are handled by a significantly large number of retailers. In
+such a case, the computational complexity of classical inventory management
+algorithms is inordinately large. In recent years, learning-based approaches
+have become popular for addressing such problems. However, previous studies
+have not been managed systems where both the number of products and retailers
+are large. This study proposes a reinforcement learning-based warehouse
+inventory management algorithm that can be used for supply chain systems where
+both the number of products and retailers are large. To solve the computational
+problem of handling large systems, we provide a means of approximate simulation
+of the system in the training phase. Our experiments on both real and
+artificial data demonstrate that our algorithm with approximated simulation can
+successfully handle large supply chain networks.
+",,8.666666667,0.577060997,feedback_adjusted,
+How is AI being used to optimize supply chain management?,"How is AI being used to optimize supply chain management? - Machine learning
+- Predictive modeling
+- Inventory management
+- Transportation optimization
+- Demand forecasting",Deep Controlled Learning for Inventory Control,"  Problem Definition: Are traditional deep reinforcement learning (DRL)
+algorithms, developed for a broad range of purposes including game-play and
+robotics, the most suitable machine learning algorithms for applications in
+inventory control? To what extent would DRL algorithms tailored to the unique
+characteristics of inventory control problems provide superior performance
+compared to DRL and traditional benchmarks? Methodology/results: We propose and
+study Deep Controlled Learning (DCL), a new DRL framework based on approximate
+policy iteration specifically designed to tackle inventory problems.
+Comparative evaluations reveal that DCL outperforms existing state-of-the-art
+heuristics in lost sales inventory control, perishable inventory systems, and
+inventory systems with random lead times, achieving lower average costs across
+all test instances and maintaining an optimality gap of no more than 0.1\%.
+Notably, the same hyperparameter set is utilized across all experiments,
+underscoring the robustness and generalizability of the proposed method.
+Managerial implications: These substantial performance and robustness
+improvements pave the way for the effective application of tailored DRL
+algorithms to inventory management problems, empowering decision-makers to
+optimize stock levels, minimize costs, and enhance responsiveness across
+various industries.
+",,9,0.529778242,feedback_adjusted,
+What are novel techniques for feature engineering in time series data?,"What are novel techniques for feature engineering in time series data? - Time series analysis
+- Feature extraction methods
+- Data pre-processing techniques
+- Temporal data feature engineering
+- Feature selection algorithms",Feature Programming for Multivariate Time Series Prediction,"  We introduce the concept of programmable feature engineering for time series
+modeling and propose a feature programming framework. This framework generates
+large amounts of predictive features for noisy multivariate time series while
+allowing users to incorporate their inductive bias with minimal effort. The key
+motivation of our framework is to view any multivariate time series as a
+cumulative sum of fine-grained trajectory increments, with each increment
+governed by a novel spin-gas dynamical Ising model. This fine-grained
+perspective motivates the development of a parsimonious set of operators that
+summarize multivariate time series in an abstract fashion, serving as the
+foundation for large-scale automated feature engineering. Numerically, we
+validate the efficacy of our method on several synthetic and real-world noisy
+time series datasets.
+",8.666666667,8.666666667,0.712226152,overlap,
+What are novel techniques for feature engineering in time series data?,"What are novel techniques for feature engineering in time series data? - Time series analysis
+- Feature extraction methods
+- Time series forecasting 
+- Machine learning algorithms 
+- Statistical techniques 
+- Dimensionality reduction 
+- Autoencoders 
+- Neural network architectures",AutoFITS: Automatic Feature Engineering for Irregular Time Series,"  A time series represents a set of observations collected over time.
+Typically, these observations are captured with a uniform sampling frequency
+(e.g. daily). When data points are observed in uneven time intervals the time
+series is referred to as irregular or intermittent. In such scenarios, the most
+common solution is to reconstruct the time series to make it regular, thus
+removing its intermittency. We hypothesise that, in irregular time series, the
+time at which each observation is collected may be helpful to summarise the
+dynamics of the data and improve forecasting performance. We study this idea by
+developing a novel automatic feature engineering framework, which focuses on
+extracting information from this point of view, i.e., when each instance is
+collected. We study how valuable this information is by integrating it in a
+time series forecasting workflow and investigate how it compares to or
+complements state-of-the-art methods for regular time series forecasting. In
+the end, we contribute by providing a novel framework that tackles feature
+engineering for time series from an angle previously vastly ignored. We show
+that our approach has the potential to further extract more information about
+time series that significantly improves forecasting performance.
+",8.666666667,8.666666667,0.669767976,overlap,
+What are novel techniques for feature engineering in time series data?,"What are novel techniques for feature engineering in time series data? - Time series forecasting
+- Feature extraction
+- Machine learning models 
+- Feature selection
+- Temporal data mining 
+- Dimensionality reduction 
+- Signal processing 
+- Lag features 
+- Time series decomposition 
+- Autoencoders 
+- Transfer learning",Forecasting large collections of time series: feature-based methods,"  In economics and many other forecasting domains, the real world problems are
+too complex for a single model that assumes a specific data generation process.
+The forecasting performance of different methods changes depending on the
+nature of the time series. When forecasting large collections of time series,
+two lines of approaches have been developed using time series features, namely
+feature-based model selection and feature-based model combination. This chapter
+discusses the state-of-the-art feature-based methods, with reference to
+open-source software implementations.
+",7.333333333,,0.647257805,expanded,
+What are novel techniques for feature engineering in time series data?,"What are novel techniques for feature engineering in time series data? - Time series data preprocessing
+- Advanced feature engineering methods
+- Temporal feature extraction
+- Time-dependent feature creation
+- Feature selection in time series analysis",catch22: CAnonical Time-series CHaracteristics,"  Capturing the dynamical properties of time series concisely as interpretable
+feature vectors can enable efficient clustering and classification for
+time-series applications across science and industry. Selecting an appropriate
+feature-based representation of time series for a given application can be
+achieved through systematic comparison across a comprehensive time-series
+feature library, such as those in the hctsa toolbox. However, this approach is
+computationally expensive and involves evaluating many similar features,
+limiting the widespread adoption of feature-based representations of time
+series for real-world applications. In this work, we introduce a method to
+infer small sets of time-series features that (i) exhibit strong classification
+performance across a given collection of time-series problems, and (ii) are
+minimally redundant. Applying our method to a set of 93 time-series
+classification datasets (containing over 147000 time series) and using a
+filtered version of the hctsa feature library (4791 features), we introduce a
+generically useful set of 22 CAnonical Time-series CHaracteristics, catch22.
+This dimensionality reduction, from 4791 to 22, is associated with an
+approximately 1000-fold reduction in computation time and near linear scaling
+with time-series length, despite an average reduction in classification
+accuracy of just 7%. catch22 captures a diverse and interpretable signature of
+time series in terms of their properties, including linear and non-linear
+autocorrelation, successive differences, value distributions and outliers, and
+fluctuation scaling properties. We provide an efficient implementation of
+catch22, accessible from many programming environments, that facilitates
+feature-based time-series analysis for scientific, industrial, financial and
+medical applications using a common language of interpretable time-series
+properties.
+",7,,0.669907689,expanded,
+What are novel techniques for feature engineering in time series data?,"What are novel techniques for feature engineering in time series data? - Time series analysis
+- Feature extraction methods
+- Machine learning algorithms
+- Signal processing techniques
+- Temporal data preprocessing",An Empirical Evaluation of Time-Series Feature Sets,"  Solving time-series problems with features has been rising in popularity due
+to the availability of software for feature extraction. Feature-based
+time-series analysis can now be performed using many different feature sets,
+including hctsa (7730 features: Matlab), feasts (42 features: R), tsfeatures
+(63 features: R), Kats (40 features: Python), tsfresh (up to 1558 features:
+Python), TSFEL (390 features: Python), and the C-coded catch22 (22 features:
+Matlab, R, Python, and Julia). There is substantial overlap in the types of
+methods included in these sets (e.g., properties of the autocorrelation
+function and Fourier power spectrum), but they are yet to be systematically
+compared. Here we compare these seven sets on computational speed, assess the
+redundancy of features contained in each, and evaluate the overlap and
+redundancy between them. We take an empirical approach to feature similarity
+based on outputs across a diverse set of real-world and simulated time series.
+We find that feature sets vary across three orders of magnitude in their
+computation time per feature on a laptop for a 1000-sample series, from the
+fastest sets catch22 and TSFEL (~0.1ms per feature) to tsfeatures (~3s per
+feature). Using PCA to evaluate feature redundancy within each set, we find the
+highest within-set redundancy for TSFEL and tsfresh. For example, in TSFEL, 90%
+of the variance across 390 features can be captured with just four PCs.
+Finally, we introduce a metric for quantifying overlap between pairs of feature
+sets, which indicates substantial overlap. We found that the largest feature
+set, hctsa, is the most comprehensive, and that tsfresh is the most
+distinctive, due to its incorporation of many low-level Fourier coefficients.
+Our results provide empirical understanding of the differences between existing
+feature sets, information that can be used to better tailor feature sets to
+their applications.
+",6.666666667,,0.618660927,expanded,
+What are novel techniques for feature engineering in time series data?,"What are novel techniques for feature engineering in time series data? - Time series analysis
+- Signal processing
+- Temporal data mining
+- Machine learning
+- Feature extraction techniques",VEST: Automatic Feature Engineering for Forecasting,"  Time series forecasting is a challenging task with applications in a wide
+range of domains. Auto-regression is one of the most common approaches to
+address these problems. Accordingly, observations are modelled by multiple
+regression using their past lags as predictor variables. We investigate the
+extension of auto-regressive processes using statistics which summarise the
+recent past dynamics of time series. The result of our research is a novel
+framework called VEST, designed to perform feature engineering using univariate
+and numeric time series automatically. The proposed approach works in three
+main steps. First, recent observations are mapped onto different
+representations. Second, each representation is summarised by statistical
+functions. Finally, a filter is applied for feature selection. We discovered
+that combining the features generated by VEST with auto-regression
+significantly improves forecasting performance. We provide evidence using 90
+time series with high sampling frequency. VEST is publicly available online.
+",,8.666666667,0.612134337,feedback_adjusted,
+What are novel techniques for feature engineering in time series data?,"What are novel techniques for feature engineering in time series data? - Time series forecasting
+- Machine learning models
+- Temporal patterns
+- Signal processing
+- Dimensionality reduction
+- Seasonality detection
+- Trend analysis","Automatic Feature Engineering for Time Series Classification: Evaluation
+  and Discussion","  Time Series Classification (TSC) has received much attention in the past two
+decades and is still a crucial and challenging problem in data science and
+knowledge engineering. Indeed, along with the increasing availability of time
+series data, many TSC algorithms have been suggested by the research community
+in the literature. Besides state-of-the-art methods based on similarity
+measures, intervals, shapelets, dictionaries, deep learning methods or hybrid
+ensemble methods, several tools for extracting unsupervised informative summary
+statistics, aka features, from time series have been designed in the recent
+years. Originally designed for descriptive analysis and visualization of time
+series with informative and interpretable features, very few of these feature
+engineering tools have been benchmarked for TSC problems and compared with
+state-of-the-art TSC algorithms in terms of predictive performance. In this
+article, we aim at filling this gap and propose a simple TSC process to
+evaluate the potential predictive performance of the feature sets obtained with
+existing feature engineering tools. Thus, we present an empirical study of 11
+feature engineering tools branched with 9 supervised classifiers over 112 time
+series data sets. The analysis of the results of more than 10000 learning
+experiments indicate that feature-based methods perform as accurately as
+current state-of-the-art TSC algorithms, and thus should rightfully be
+considered further in the TSC literature.
+",,7,0.642835796,feedback_adjusted,
+What are novel techniques for feature engineering in time series data?,"What are novel techniques for feature engineering in time series data? - Time series decomposition
+- Seasonality detection
+- Rolling window analysis
+- Lagged variables
+- Autoregressive models
+- Cross-correlation
+- Wavelet transforms
+- Frequency domain analysis",Feature-based time-series analysis,"  This work presents an introduction to feature-based time-series analysis. The
+time series as a data type is first described, along with an overview of the
+interdisciplinary time-series analysis literature. I then summarize the range
+of feature-based representations for time series that have been developed to
+aid interpretable insights into time-series structure. Particular emphasis is
+given to emerging research that facilitates wide comparison of feature-based
+representations that allow us to understand the properties of a time-series
+dataset that make it suited to a particular feature-based representation or
+analysis algorithm. The future of time-series analysis is likely to embrace
+approaches that exploit machine learning methods to partially automate human
+learning to aid understanding of the complex dynamical patterns in the time
+series we measure from the world.
+",,5.333333333,0.658790827,feedback_adjusted,
+How can GANs (Generative Adversarial Networks) improve image resolution?,"How can GANs (Generative Adversarial Networks) improve image resolution? - Deep learning
+- Super-resolution
+- Neural networks
+- Computer vision
+- Image processing
+- Convolutional neural networks
+- Machine learning",Generative Adversarial Networks for Image Super-Resolution: A Survey,"  Single image super-resolution (SISR) has played an important role in the
+field of image processing. Recent generative adversarial networks (GANs) can
+achieve excellent results on low-resolution images with small samples. However,
+there are little literatures summarizing different GANs in SISR. In this paper,
+we conduct a comparative study of GANs from different perspectives. We first
+take a look at developments of GANs. Second, we present popular architectures
+for GANs in big and small samples for image applications. Then, we analyze
+motivations, implementations and differences of GANs based optimization methods
+and discriminative learning for image super-resolution in terms of supervised,
+semi-supervised and unsupervised manners. Next, we compare performance of these
+popular GANs on public datasets via quantitative and qualitative analysis in
+SISR. Finally, we highlight challenges of GANs and potential research points
+for SISR.
+",9,9.333333333,0.728315413,overlap,
+How can GANs (Generative Adversarial Networks) improve image resolution?,"How can GANs (Generative Adversarial Networks) improve image resolution? - Deep learning
+- Super-resolution
+- Neural networks
+- Image processing
+- Machine learning
+- Convolutional neural networks
+- Data augmentation","A General Method to Incorporate Spatial Information into Loss Functions
+  for GAN-based Super-resolution Models","  Generative Adversarial Networks (GANs) have shown great performance on
+super-resolution problems since they can generate more visually realistic
+images and video frames. However, these models often introduce side effects
+into the outputs, such as unexpected artifacts and noises. To reduce these
+artifacts and enhance the perceptual quality of the results, in this paper, we
+propose a general method that can be effectively used in most GAN-based
+super-resolution (SR) models by introducing essential spatial information into
+the training process. We extract spatial information from the input data and
+incorporate it into the training loss, making the corresponding loss a
+spatially adaptive (SA) one. After that, we utilize it to guide the training
+process. We will show that the proposed approach is independent of the methods
+used to extract the spatial information and independent of the SR tasks and
+models. This method consistently guides the training process towards generating
+visually pleasing SR images and video frames, substantially mitigating
+artifacts and noise, ultimately leading to enhanced perceptual quality.
+",9,9,0.732697487,overlap,
+How can GANs (Generative Adversarial Networks) improve image resolution?,"How can GANs (Generative Adversarial Networks) improve image resolution? - Artificial intelligence
+- Deep learning
+- Super-resolution
+- Neural networks
+- Computer vision","A Generative Model for Hallucinating Diverse Versions of Super
+  Resolution Images","  Traditionally, the main focus of image super-resolution techniques is on
+recovering the most likely high-quality images from low-quality images, using a
+one-to-one low- to high-resolution mapping. Proceeding that way, we ignore the
+fact that there are generally many valid versions of high-resolution images
+that map to a given low-resolution image. We are tackling in this work the
+problem of obtaining different high-resolution versions from the same
+low-resolution image using Generative Adversarial Models. Our learning approach
+makes use of high frequencies available in the training high-resolution images
+for preserving and exploring in an unsupervised manner the structural
+information available within these images. Experimental results on the CelebA
+dataset confirm the effectiveness of the proposed method, which allows the
+generation of both realistic and diverse high-resolution images from
+low-resolution images.
+",7,9.333333333,0.702885151,overlap,
+How can GANs (Generative Adversarial Networks) improve image resolution?,"How can GANs (Generative Adversarial Networks) improve image resolution? - super-resolution
+- deep learning
+- neural networks
+- image enhancement
+- computer vision
+- data augmentation
+- training techniques",Infrared Image Super-Resolution via GAN,"  The ability of generative models to accurately fit data distributions has
+resulted in their widespread adoption and success in fields such as computer
+vision and natural language processing. In this chapter, we provide a brief
+overview of the application of generative models in the domain of infrared (IR)
+image super-resolution, including a discussion of the various challenges and
+adversarial training methods employed. We propose potential areas for further
+investigation and advancement in the application of generative models for IR
+image super-resolution.
+",9.666666667,8.333333333,0.648041368,overlap,
+How can GANs (Generative Adversarial Networks) improve image resolution?,"How can GANs (Generative Adversarial Networks) improve image resolution? - Super-resolution
+- Deep learning
+- Image enhancement
+- Neural networks
+- Computer vision
+- Image processing",Image-Adaptive GAN based Reconstruction,"  In the recent years, there has been a significant improvement in the quality
+of samples produced by (deep) generative models such as variational
+auto-encoders and generative adversarial networks. However, the representation
+capabilities of these methods still do not capture the full distribution for
+complex classes of images, such as human faces. This deficiency has been
+clearly observed in previous works that use pre-trained generative models to
+solve imaging inverse problems. In this paper, we suggest to mitigate the
+limited representation capabilities of generators by making them image-adaptive
+and enforcing compliance of the restoration with the observations via
+back-projections. We empirically demonstrate the advantages of our proposed
+approach for image super-resolution and compressed sensing.
+",7,,0.698257685,expanded,
+How can GANs (Generative Adversarial Networks) improve image resolution?,"How can GANs (Generative Adversarial Networks) improve image resolution? - Deep learning
+- Super resolution
+- Neural networks
+- Computer vision
+- Image processing
+- Machine learning
+- Training algorithms","Details or Artifacts: A Locally Discriminative Learning Approach to
+  Realistic Image Super-Resolution","  Single image super-resolution (SISR) with generative adversarial networks
+(GAN) has recently attracted increasing attention due to its potentials to
+generate rich details. However, the training of GAN is unstable, and it often
+introduces many perceptually unpleasant artifacts along with the generated
+details. In this paper, we demonstrate that it is possible to train a GAN-based
+SISR model which can stably generate perceptually realistic details while
+inhibiting visual artifacts. Based on the observation that the local statistics
+(e.g., residual variance) of artifact areas are often different from the areas
+of perceptually friendly details, we develop a framework to discriminate
+between GAN-generated artifacts and realistic details, and consequently
+generate an artifact map to regularize and stabilize the model training
+process. Our proposed locally discriminative learning (LDL) method is simple
+yet effective, which can be easily plugged in off-the-shelf SISR methods and
+boost their performance. Experiments demonstrate that LDL outperforms the
+state-of-the-art GAN based SISR methods, achieving not only higher
+reconstruction accuracy but also superior perceptual quality on both synthetic
+and real-world datasets. Codes and models are available at
+https://github.com/csjliang/LDL.
+",,9.333333333,0.693186402,feedback_adjusted,
+What role does data augmentation play in small dataset training?,"What role does data augmentation play in small dataset training? - Image data
+- Machine learning
+- Deep learning
+- Performance improvement
+- Generalization
+- Synthetic data
+- Augmentation techniques
+- Overfitting prevention",Smart Augmentation - Learning an Optimal Data Augmentation Strategy,"  A recurring problem faced when training neural networks is that there is
+typically not enough data to maximize the generalization capability of deep
+neural networks(DNN). There are many techniques to address this, including data
+augmentation, dropout, and transfer learning. In this paper, we introduce an
+additional method which we call Smart Augmentation and we show how to use it to
+increase the accuracy and reduce overfitting on a target network. Smart
+Augmentation works by creating a network that learns how to generate augmented
+data during the training process of a target network in a way that reduces that
+networks loss. This allows us to learn augmentations that minimize the error of
+that network.
+  Smart Augmentation has shown the potential to increase accuracy by
+demonstrably significant measures on all datasets tested. In addition, it has
+shown potential to achieve similar or improved performance levels with
+significantly smaller network sizes in a number of tested cases.
+",9.333333333,9.333333333,0.600948155,overlap,
+What role does data augmentation play in small dataset training?,"What role does data augmentation play in small dataset training? - Machine learning
+- Augmented data
+- Data preprocessing
+- Model performance
+- Generalization
+- Training techniques","How Much Data Are Augmentations Worth? An Investigation into Scaling
+  Laws, Invariance, and Implicit Regularization","  Despite the clear performance benefits of data augmentations, little is known
+about why they are so effective. In this paper, we disentangle several key
+mechanisms through which data augmentations operate. Establishing an exchange
+rate between augmented and additional real data, we find that in
+out-of-distribution testing scenarios, augmentations which yield samples that
+are diverse, but inconsistent with the data distribution can be even more
+valuable than additional training data. Moreover, we find that data
+augmentations which encourage invariances can be more valuable than invariance
+alone, especially on small and medium sized training sets. Following this
+observation, we show that augmentations induce additional stochasticity during
+training, effectively flattening the loss landscape.
+",9,9,0.66949445,overlap,
+What role does data augmentation play in small dataset training?,"What role does data augmentation play in small dataset training? - Machine learning
+- Image recognition
+- Deep learning
+- Data preprocessing
+- Overfitting
+- Performance improvement
+- Algorithm enhancement",Further advantages of data augmentation on convolutional neural networks,"  Data augmentation is a popular technique largely used to enhance the training
+of convolutional neural networks. Although many of its benefits are well known
+by deep learning researchers and practitioners, its implicit regularization
+effects, as compared to popular explicit regularization techniques, such as
+weight decay and dropout, remain largely unstudied. As a matter of fact,
+convolutional neural networks for image object classification are typically
+trained with both data augmentation and explicit regularization, assuming the
+benefits of all techniques are complementary. In this paper, we systematically
+analyze these techniques through ablation studies of different network
+architectures trained with different amounts of training data. Our results
+unveil a largely ignored advantage of data augmentation: networks trained with
+just data augmentation more easily adapt to different architectures and amount
+of training data, as opposed to weight decay and dropout, which require
+specific fine-tuning of their hyperparameters.
+",8.333333333,,0.632378042,expanded,
+What role does data augmentation play in small dataset training?,"What role does data augmentation play in small dataset training? - Machine learning
+- Image classification
+- Deep learning
+- Transfer learning
+- Performance improvement",Research Trends and Applications of Data Augmentation Algorithms,"  In the Machine Learning research community, there is a consensus regarding
+the relationship between model complexity and the required amount of data and
+computation power. In real world applications, these computational requirements
+are not always available, motivating research on regularization methods. In
+addition, current and past research have shown that simpler classification
+algorithms can reach state-of-the-art performance on computer vision tasks
+given a robust method to artificially augment the training dataset. Because of
+this, data augmentation techniques became a popular research topic in recent
+years. However, existing data augmentation methods are generally less
+transferable than other regularization methods. In this paper we identify the
+main areas of application of data augmentation algorithms, the types of
+algorithms used, significant research trends, their progression over time and
+research gaps in data augmentation literature. To do this, the related
+literature was collected through the Scopus database. Its analysis was done
+following network science, text mining and exploratory analysis approaches. We
+expect readers to understand the potential of data augmentation, as well as
+identify future research directions and open questions within data augmentation
+research.
+",8,,0.644701898,expanded,
+What role does data augmentation play in small dataset training?,"What role does data augmentation play in small dataset training? - Machine learning 
+- Image processing 
+- Deep learning 
+- Augmented data 
+- Generalization 
+- Overfitting 
+- Training performance",Data Augmentation as Feature Manipulation,"  Data augmentation is a cornerstone of the machine learning pipeline, yet its
+theoretical underpinnings remain unclear. Is it merely a way to artificially
+augment the data set size? Or is it about encouraging the model to satisfy
+certain invariance? In this work we consider another angle, and we study the
+effect of data augmentation on the dynamic of the learning process. We find
+that data augmentation can alter the relative importance of various features,
+effectively making certain informative but hard to learn features more likely
+to be captured in the learning process. Importantly, we show that this effect
+is more pronounced for non-linear models, such as neural networks. Our main
+contribution is a detailed analysis of data augmentation on the learning
+dynamic for a two layer convolutional neural network in the recently proposed
+multi-view data model by Allen-Zhu and Li [2020]. We complement this analysis
+with further experimental evidence that data augmentation can be viewed as
+feature manipulation.
+",7.333333333,,0.65788722,expanded,
+What role does data augmentation play in small dataset training?,"What role does data augmentation play in small dataset training? - Overfitting prevention
+- Image transformation techniques
+- Transfer learning
+- Synthetic data generation
+- Neural network regularization",WeMix: How to Better Utilize Data Augmentation,"  Data augmentation is a widely used training trick in deep learning to improve
+the network generalization ability. Despite many encouraging results, several
+recent studies did point out limitations of the conventional data augmentation
+scheme in certain scenarios, calling for a better theoretical understanding of
+data augmentation. In this work, we develop a comprehensive analysis that
+reveals pros and cons of data augmentation. The main limitation of data
+augmentation arises from the data bias, i.e. the augmented data distribution
+can be quite different from the original one. This data bias leads to a
+suboptimal performance of existing data augmentation methods. To this end, we
+develop two novel algorithms, termed ""AugDrop"" and ""MixLoss"", to correct the
+data bias in the data augmentation. Our theoretical analysis shows that both
+algorithms are guaranteed to improve the effect of data augmentation through
+the bias correction, which is further validated by our empirical studies.
+Finally, we propose a generic algorithm ""WeMix"" by combining AugDrop and
+MixLoss, whose effectiveness is observed from extensive empirical evaluations.
+",,7,0.654578924,feedback_adjusted,
+What role does data augmentation play in small dataset training?,"What role does data augmentation play in small dataset training? - Machine learning
+- Image processing
+- Overfitting
+- Supervised learning
+- Model performance
+- Synthetic data
+- Training efficiency","DualAug: Exploiting Additional Heavy Augmentation with OOD Data
+  Rejection","  Data augmentation is a dominant method for reducing model overfitting and
+improving generalization. Most existing data augmentation methods tend to find
+a compromise in augmenting the data, \textit{i.e.}, increasing the amplitude of
+augmentation carefully to avoid degrading some data too much and doing harm to
+the model performance. We delve into the relationship between data augmentation
+and model performance, revealing that the performance drop with heavy
+augmentation comes from the presence of out-of-distribution (OOD) data.
+Nonetheless, as the same data transformation has different effects for
+different training samples, even for heavy augmentation, there remains part of
+in-distribution data which is beneficial to model training. Based on the
+observation, we propose a novel data augmentation method, named
+\textbf{DualAug}, to keep the augmentation in distribution as much as possible
+at a reasonable time and computational cost. We design a data mixing strategy
+to fuse augmented data from both the basic- and the heavy-augmentation
+branches. Extensive experiments on supervised image classification benchmarks
+show that DualAug improve various automated data augmentation method. Moreover,
+the experiments on semi-supervised learning and contrastive self-supervised
+learning demonstrate that our DualAug can also improve related method. Code is
+available at
+\href{https://github.com/shuguang99/DualAug}{https://github.com/shuguang99/DualAug}.
+",,8.666666667,0.639667571,feedback_adjusted,
+What role does data augmentation play in small dataset training?,"What role does data augmentation play in small dataset training? - Machine learning
+- Image recognition
+- Transfer learning
+- Data preprocessing
+- Overfitting prevention","Data Augmentation Revisited: Rethinking the Distribution Gap between
+  Clean and Augmented Data","  Data augmentation has been widely applied as an effective methodology to
+improve generalization in particular when training deep neural networks.
+Recently, researchers proposed a few intensive data augmentation techniques,
+which indeed improved accuracy, yet we notice that these methods augment data
+have also caused a considerable gap between clean and augmented data. In this
+paper, we revisit this problem from an analytical perspective, for which we
+estimate the upper-bound of expected risk using two terms, namely, empirical
+risk and generalization error, respectively. We develop an understanding of
+data augmentation as regularization, which highlights the major features. As a
+result, data augmentation significantly reduces the generalization error, but
+meanwhile leads to a slightly higher empirical risk. On the assumption that
+data augmentation helps models converge to a better region, the model can
+benefit from a lower empirical risk achieved by a simple method, i.e., using
+less-augmented data to refine the model trained on fully-augmented data. Our
+approach achieves consistent accuracy gain on a few standard image
+classification benchmarks, and the gain transfers to object detection.
+",,6.666666667,0.592315018,feedback_adjusted,
+How is federated learning enhancing privacy in healthcare applications?,"How is federated learning enhancing privacy in healthcare applications? - Machine learning
+- Data sharing
+- Security
+- Personal data
+- Federated learning algorithms
+- Healthcare data privacy
+- Federated learning advantages","Differential Privacy-enabled Federated Learning for Sensitive Health
+  Data","  Leveraging real-world health data for machine learning tasks requires
+addressing many practical challenges, such as distributed data silos, privacy
+concerns with creating a centralized database from person-specific sensitive
+data, resource constraints for transferring and integrating data from multiple
+sites, and risk of a single point of failure. In this paper, we introduce a
+federated learning framework that can learn a global model from distributed
+health data held locally at different sites. The framework offers two levels of
+privacy protection. First, it does not move or share raw data across sites or
+with a centralized server during the model training process. Second, it uses a
+differential privacy mechanism to further protect the model from potential
+privacy attacks. We perform a comprehensive evaluation of our approach on two
+healthcare applications, using real-world electronic health data of 1 million
+patients. We demonstrate the feasibility and effectiveness of the federated
+learning framework in offering an elevated level of privacy and maintaining
+utility of the global model.
+",9.333333333,9.666666667,0.671608806,overlap,
+How is federated learning enhancing privacy in healthcare applications?,"How is federated learning enhancing privacy in healthcare applications? - Machine learning
+- Data privacy
+- Healthcare data
+- Federated learning algorithms
+- Security enhancement","Federated Learning in Healthcare: Model Misconducts, Security,
+  Challenges, Applications, and Future Research Directions -- A Systematic
+  Review","  Data privacy has become a major concern in healthcare due to the increasing
+digitization of medical records and data-driven medical research. Protecting
+sensitive patient information from breaches and unauthorized access is
+critical, as such incidents can have severe legal and ethical complications.
+Federated Learning (FL) addresses this concern by enabling multiple healthcare
+institutions to collaboratively learn from decentralized data without sharing
+it. FL's scope in healthcare covers areas such as disease prediction, treatment
+customization, and clinical trial research. However, implementing FL poses
+challenges, including model convergence in non-IID (independent and identically
+distributed) data environments, communication overhead, and managing
+multi-institutional collaborations. A systematic review of FL in healthcare is
+necessary to evaluate how effectively FL can provide privacy while maintaining
+the integrity and usability of medical data analysis. In this study, we analyze
+existing literature on FL applications in healthcare. We explore the current
+state of model security practices, identify prevalent challenges, and discuss
+practical applications and their implications. Additionally, the review
+highlights promising future research directions to refine FL implementations,
+enhance data security protocols, and expand FL's use to broader healthcare
+applications, which will benefit future researchers and practitioners.
+",9,9,0.752621174,overlap,
+How is federated learning enhancing privacy in healthcare applications?,"How is federated learning enhancing privacy in healthcare applications? - Machine learning
+- Data privacy
+- Healthcare data
+- Security
+- Collaborative learning
+- Distributed learning","Privacy Risks Analysis and Mitigation in Federated Learning for Medical
+  Images","  Federated learning (FL) is gaining increasing popularity in the medical
+domain for analyzing medical images, which is considered an effective technique
+to safeguard sensitive patient data and comply with privacy regulations.
+However, several recent studies have revealed that the default settings of FL
+may leak private training data under privacy attacks. Thus, it is still unclear
+whether and to what extent such privacy risks of FL exist in the medical
+domain, and if so, ""how to mitigate such risks?"". In this paper, first, we
+propose a holistic framework for Medical data Privacy risk analysis and
+mitigation in Federated Learning (MedPFL) to analyze privacy risks and develop
+effective mitigation strategies in FL for protecting private medical data.
+Second, we demonstrate the substantial privacy risks of using FL to process
+medical images, where adversaries can easily perform privacy attacks to
+reconstruct private medical images accurately. Third, we show that the defense
+approach of adding random noises may not always work effectively to protect
+medical images against privacy attacks in FL, which poses unique and pressing
+challenges associated with medical data for privacy protection.
+",9,8.666666667,0.761555076,overlap,
+How is federated learning enhancing privacy in healthcare applications?,"How is federated learning enhancing privacy in healthcare applications? - Machine learning
+- Data privacy
+- Healthcare data
+- Security
+- Decentralized learning
+- Medical data privacy
+- Federated AI
+- Patient information protection
+- Federated learning models",Anonymizing Data for Privacy-Preserving Federated Learning,"  Federated learning enables training a global machine learning model from data
+distributed across multiple sites, without having to move the data. This is
+particularly relevant in healthcare applications, where data is rife with
+personal, highly-sensitive information, and data analysis methods must provably
+comply with regulatory guidelines. Although federated learning prevents sharing
+raw data, it is still possible to launch privacy attacks on the model
+parameters that are exposed during the training process, or on the generated
+machine learning model. In this paper, we propose the first syntactic approach
+for offering privacy in the context of federated learning. Unlike the
+state-of-the-art differential privacy-based frameworks, our approach aims to
+maximize utility or model performance, while supporting a defensible level of
+privacy, as demanded by GDPR and HIPAA. We perform a comprehensive empirical
+evaluation on two important problems in the healthcare domain, using real-world
+electronic health data of 1 million patients. The results demonstrate the
+effectiveness of our approach in achieving high model performance, while
+offering the desired level of privacy. Through comparative studies, we also
+show that, for varying datasets, experimental setups, and privacy budgets, our
+approach offers higher model performance than differential privacy-based
+techniques in federated learning.
+",9,9,0.734120607,overlap,
+How is federated learning enhancing privacy in healthcare applications?,"How is federated learning enhancing privacy in healthcare applications? - Machine learning
+- Distributed learning
+- Healthcare data security
+- Privacy-preserving techniques","Federated Learning for Healthcare Domain - Pipeline, Applications and
+  Challenges","  Federated learning is the process of developing machine learning models over
+datasets distributed across data centers such as hospitals, clinical research
+labs, and mobile devices while preventing data leakage. This survey examines
+previous research and studies on federated learning in the healthcare sector
+across a range of use cases and applications. Our survey shows what challenges,
+methods, and applications a practitioner should be aware of in the topic of
+federated learning. This paper aims to lay out existing research and list the
+possibilities of federated learning for healthcare industries.
+",8.333333333,,0.745902181,expanded,
+How is federated learning enhancing privacy in healthcare applications?,"How is federated learning enhancing privacy in healthcare applications? - Machine learning
+- Privacy-preserving techniques
+- Healthcare data security
+- Data sharing
+- Distributed learning
+- Personalized medicine","Vision Through the Veil: Differential Privacy in Federated Learning for
+  Medical Image Classification","  The proliferation of deep learning applications in healthcare calls for data
+aggregation across various institutions, a practice often associated with
+significant privacy concerns. This concern intensifies in medical image
+analysis, where privacy-preserving mechanisms are paramount due to the data
+being sensitive in nature. Federated learning, which enables cooperative model
+training without direct data exchange, presents a promising solution.
+Nevertheless, the inherent vulnerabilities of federated learning necessitate
+further privacy safeguards. This study addresses this need by integrating
+differential privacy, a leading privacy-preserving technique, into a federated
+learning framework for medical image classification. We introduce a novel
+differentially private federated learning model and meticulously examine its
+impacts on privacy preservation and model performance. Our research confirms
+the existence of a trade-off between model accuracy and privacy settings.
+However, we demonstrate that strategic calibration of the privacy budget in
+differential privacy can uphold robust image classification performance while
+providing substantial privacy protection.
+",,9,0.725775361,feedback_adjusted,
